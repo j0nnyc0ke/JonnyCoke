@@ -1,0 +1,8 @@
+{
+  "name": "Remix Jonny Coke - Portfolio",
+  "description": "Portfolio and interactive accessibility showcase for Jonny Coke, Senior Graphic \u0026 Digital Designer, Accessibility \u0026 Motion Specialist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

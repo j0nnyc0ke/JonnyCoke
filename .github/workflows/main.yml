@@ -14,11 +14,11 @@ build_site:
 runs-on: ubuntu-latest
 steps:
 - name: Checkout
-  uses: actions/checkout@v4
+uses: actions/checkout@v4
 - name: Install Bun
 uses: oven-sh/setup-bun@v1
-  with:
-    bun-version: latest
+with:
+bun-version: latest
 - name: Install Dependencies
 run: bun install
 - name: Build Site

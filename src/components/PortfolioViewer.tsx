@@ -784,7 +784,7 @@ export const PortfolioViewer: React.FC<Props> = ({
                       <div className="p-3 rounded-xl bg-gradient-to-r from-amber-950/60 via-[#0e172a] to-teal-950/50 border-2 border-amber-500/80 shadow-[0_0_20px_rgba(245,158,11,0.18)] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                         <div className="flex items-center gap-3">
                           <img
-                            src="/assets/aistudio/IMG_5996_7f12e8e4.jpeg"
+                            src="./assets/aistudio/IMG_5996_7f12e8e4.jpeg"
                             alt="Geoscientist May 2017 Cover (PPA Award Nominee)"
                             className="w-12 h-16 object-cover rounded-md border border-amber-400/60 shadow"
                           />

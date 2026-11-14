@@ -54,7 +54,7 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     title: 'Dietetics Today Augmented Reality Cover (BDA)',
     sourcePage: 'Dietetics Today AR Publication Suite (Century One & BDA)',
     sourceUrl: 'https://youtube.com/shorts/FWwvsqd4Gcg?si=779uiQqzg0WxBYoi',
-    imageUrl: '/videos/dtcover1-ar-thumb.png',
+    imageUrl: './videos/dtcover1-ar-thumb.png',
     videoUrl: 'https://youtube.com/shorts/FWwvsqd4Gcg?si=779uiQqzg0WxBYoi',
     isVideo: true,
     category: 'Augmented Reality & Publishing',
@@ -64,8 +64,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'geo-mag-cover',
     title: 'Geoscientist Magazine Cover (PPA Cover of the Year Nominee)',
     sourcePage: 'Geological Society Fellowship Archive (May 2017 Vol 27 No 4 - PPA Cover of the Year Nominee)',
-    sourceUrl: '/assets/aistudio/IMG_5996_7f12e8e4.jpeg',
-    imageUrl: '/assets/aistudio/IMG_5996_7f12e8e4.jpeg',
+    sourceUrl: './assets/aistudio/IMG_5996_7f12e8e4.jpeg',
+    imageUrl: './assets/aistudio/IMG_5996_7f12e8e4.jpeg',
     category: 'Scientific Publishing & Editorial Art Direction',
     description: 'PPA Award Cover of the Year nominated flagship fellowship publication cover of the Geological Society of London ("Blowing hot & cold: The history of climate-change science from 1750 to the dawn of the 20th Century", Vol 27 No 4, May 2017). Solely art-directed and typeset by Jonny Coke.',
   },
@@ -73,9 +73,9 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'brent-shisha-campaign',
     title: 'Brent Council "Shisha: The Facts" Public Health Campaign',
     sourcePage: 'Brent Council Public Health A5 Leaflet Archive (Ref: 7904_v12)',
-    sourceUrl: '/assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
-    imageUrl: '/assets/aistudio/shisha_campaign_cover.png',
-    pdfUrl: '/assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
+    sourceUrl: './assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
+    imageUrl: './assets/aistudio/shisha_campaign_cover.png',
+    pdfUrl: './assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
     category: 'Civic Communications & Public Health',
     description: 'High-impact public health campaign dispelling shisha smoke toxicity myths ("The Fact, Shisha as addictive and toxic as cigarettes - Shisha smoked for 45 minutes = 100 cigarettes worth of smoke") for 330,000+ residents in London Borough of Brent.',
   },
@@ -83,8 +83,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'msn-racing-campaign',
     title: 'Motorsport Network Autosport & F1 Campaign',
     sourcePage: 'Autosport Father’s Day National Press Campaign (MSN-3)',
-    sourceUrl: '/portfolio/MSN-3.png',
-    imageUrl: '/portfolio/MSN-3.png',
+    sourceUrl: './portfolio/MSN-3.png',
+    imageUrl: './portfolio/MSN-3.png',
     category: 'Sports Marketing & Conversion',
     description: 'Autosport Father’s Day national direct-response campaign ("Try 6 Issues of Autosport for £6") with Brabham BT52 Haynes manual incentive.',
   },
@@ -92,8 +92,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'drivewise-fleet-identity',
     title: 'DriveWise Automotive Fleet & Brand Identity System',
     sourcePage: 'Blaize Carr Holdings (Commercial Portfolio Archive)',
-    sourceUrl: '/portfolio/JCokePortfolio181219.pdf',
-    imageUrl: '/portfolio/JCokePortfolio181219.pdf',
+    sourceUrl: './portfolio/JCokePortfolio181219.pdf',
+    imageUrl: './portfolio/JCokePortfolio181219.pdf',
     category: 'Fleet & Brand Architecture',
     description: 'Complete brand creation, vector logomark engineering, and vehicle livery for driver education network.',
   },
@@ -101,8 +101,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'jetline-travel-brochure',
     title: 'Jetline Luxury Ocean Cruise Travel Publication',
     sourcePage: 'Jetline Cruise (Commercial Portfolio Archive)',
-    sourceUrl: '/portfolio/JCokePortfolio181219.pdf',
-    imageUrl: '/portfolio/JCokePortfolio181219.pdf',
+    sourceUrl: './portfolio/JCokePortfolio181219.pdf',
+    imageUrl: './portfolio/JCokePortfolio181219.pdf',
     category: 'Travel Direct Marketing',
     description: 'Direct response national press advertising and multi-page worldwide luxury travel brochures.',
   },
@@ -110,8 +110,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'msb-organic-packaging',
     title: 'MySheaButter Organic Cosmetics Jar Packaging & Label',
     sourcePage: 'My Shea Butter (Commercial Portfolio Archive)',
-    sourceUrl: '/portfolio/JCokePortfolio181219.pdf',
-    imageUrl: '/portfolio/JCokePortfolio181219.pdf',
+    sourceUrl: './portfolio/JCokePortfolio181219.pdf',
+    imageUrl: './portfolio/JCokePortfolio181219.pdf',
     category: 'Packaging & E-Commerce',
     description: 'Tactile cosmetic jar label and botanical identity engineered for organic unrefined skincare.',
   },
@@ -119,8 +119,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'cmd-childminder-signage',
     title: 'CMD Childcare Center Identity & Outdoor Signage',
     sourcePage: 'CMD Childcare (Commercial Portfolio Archive)',
-    sourceUrl: '/portfolio/JCokePortfolio181219.pdf',
-    imageUrl: '/portfolio/JCokePortfolio181219.pdf',
+    sourceUrl: './portfolio/JCokePortfolio181219.pdf',
+    imageUrl: './portfolio/JCokePortfolio181219.pdf',
     category: 'Early Years Brand Identity',
     description: 'Protective, friendly brand identity and weatherproof outdoor signage for registered early years childcare.',
   },
@@ -128,8 +128,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'dewalt-pos-display',
     title: 'DeWalt Woodridge Retail Point of Sale (POS) Display',
     sourcePage: 'Dragonfly Ventures / WIP (Howdens DeWalt Licensed Footwear)',
-    sourceUrl: '/assets/aistudio/image_6d5c3406.jpeg',
-    imageUrl: '/assets/aistudio/image_6d5c3406.jpeg',
+    sourceUrl: './assets/aistudio/image_6d5c3406.jpeg',
+    imageUrl: './assets/aistudio/image_6d5c3406.jpeg',
     category: 'Retail Point-of-Sale & Brand Packaging',
     description: 'Point of sale display box and promotional header card for DeWalt Woodridge premium nubuck leather work boots (Special Purchase £41.99, Howdens trade merchant rollout).',
   },
@@ -137,8 +137,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'daltec-minibar-label',
     title: 'DalTec Mini Light Bar Commercial Packaging Label',
     sourcePage: 'DalTec Ltd (Vehicle Warning Lighting & Electronics)',
-    sourceUrl: '/assets/aistudio/IMG_5997_142faf3b.jpeg',
-    imageUrl: '/assets/aistudio/IMG_5997_142faf3b.jpeg',
+    sourceUrl: './assets/aistudio/IMG_5997_142faf3b.jpeg',
+    imageUrl: './assets/aistudio/IMG_5997_142faf3b.jpeg',
     category: 'Automotive Product Packaging & Technical Labelling',
     description: 'Technical commercial product label for DalTec Mini Light Bar vehicle warning beacon with ECE R65 compliance, amber LED specifications, and IP67 rating.',
   },
@@ -146,8 +146,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'daltec-wide-label',
     title: 'DalTec Full-Size Light Bar Chassis & Packaging Label',
     sourcePage: 'DalTec Ltd (Vehicle Warning Lighting & Electronics)',
-    sourceUrl: '/assets/aistudio/IMG_5998_05c1c3c4.jpeg',
-    imageUrl: '/assets/aistudio/IMG_5998_05c1c3c4.jpeg',
+    sourceUrl: './assets/aistudio/IMG_5998_05c1c3c4.jpeg',
+    imageUrl: './assets/aistudio/IMG_5998_05c1c3c4.jpeg',
     category: 'Automotive Warning Lighting Packaging',
     description: 'Wide-format technical packaging label engineered for DalTec full-size vehicle light bars, incorporating barcode whiteout window, voltage ratings, and thermal tolerance ranges.',
   },
@@ -155,8 +155,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'brent-mag-reggae-roots',
     title: 'Your Brent Magazine Spread: "No Bass Like Home: Brent\'s Reggae Roots"',
     sourcePage: 'Brent Council (Your Brent Magazine Spring 2020 Issue)',
-    sourceUrl: '/assets/aistudio/IMG_6001_6f94d77f.jpeg',
-    imageUrl: '/assets/aistudio/IMG_6001_6f94d77f.jpeg',
+    sourceUrl: './assets/aistudio/IMG_6001_6f94d77f.jpeg',
+    imageUrl: './assets/aistudio/IMG_6001_6f94d77f.jpeg',
     category: 'Civic Magazine Editorial Spreads',
     description: 'Double-page Arts & Culture editorial feature celebrating Brent\'s rich reggae music heritage for London Borough of Culture, profiling Lovers Rock icon Carroll Thompson, DJ Shy One, and Culture Fund initiatives.',
   },
@@ -164,8 +164,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'brent-mag-grime-crime',
     title: 'Your Brent Magazine: "WANTED! For crimes against your streets"',
     sourcePage: 'Brent Council (Your Brent Magazine Spring 2020 Issue)',
-    sourceUrl: '/assets/aistudio/IMG_5999_15e8dad9.jpeg',
-    imageUrl: '/assets/aistudio/IMG_5999_15e8dad9.jpeg',
+    sourceUrl: './assets/aistudio/IMG_5999_15e8dad9.jpeg',
+    imageUrl: './assets/aistudio/IMG_5999_15e8dad9.jpeg',
     category: 'Civic Enforcement & Environmental Campaign',
     description: 'High-impact civic enforcement feature and public awareness campaign tackling fly-tipping and grime crime across the borough, integrating CCTV appeal evidence and "Love Where You Live" municipal branding.',
   },
@@ -173,8 +173,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'brent-mayor-wembley-tour',
     title: 'Mayor of Brent Exclusive Wembley Stadium Tour VIP Invitation',
     sourcePage: 'Brent Council (Office of the Mayor of Brent)',
-    sourceUrl: '/assets/aistudio/image_e4980fe9.png',
-    imageUrl: '/assets/aistudio/image_e4980fe9.png',
+    sourceUrl: './assets/aistudio/image_e4980fe9.png',
+    imageUrl: './assets/aistudio/image_e4980fe9.png',
     category: 'Mayoral Ceremonial & VIP Event Collateral',
     description: 'Official ceremonial VIP invitation for Mayor of Brent Cllr Ernest Ezeajughi hosting an exclusive tour of Wembley Stadium, incorporating the iconic Wembley Arch photography, mayoral chains of office portrait, and Brent civic identity.',
   },
@@ -182,8 +182,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'scope-ppa-finalist-showcase',
     title: 'Scope Magazine PPA Awards 2016 Finalist Editorial Presentation',
     sourcePage: 'Scope Magazine (Institute of Physics and Engineering in Medicine)',
-    sourceUrl: '/assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
-    imageUrl: '/assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
+    sourceUrl: './assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
+    imageUrl: './assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
     category: 'PPA Award Finalist • Editorial & Digital Publishing',
     description: 'PPA Awards 2016 Finalist presentation for Membership Magazine of the Year: Scope March 2017 Vol 26 Issue 1, bridging printed tactile publication with digital iPad edition and high-density computing research articles.',
   },
@@ -191,8 +191,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'scope-brachytherapy-showcase',
     title: 'Scope Magazine Brachytherapy Oncology Research Spread',
     sourcePage: 'Scope Magazine (Vol 26 Issue 4, December 2017)',
-    sourceUrl: '/assets/aistudio/drabsdcxuaazuza-1_6f3fa271.jpeg',
-    imageUrl: '/assets/aistudio/drabsdcxuaazuza-1_6f3fa271.jpeg',
+    sourceUrl: './assets/aistudio/drabsdcxuaazuza-1_6f3fa271.jpeg',
+    imageUrl: './assets/aistudio/drabsdcxuaazuza-1_6f3fa271.jpeg',
     category: 'Clinical Oncology & Biomedical Layout',
     description: 'Flagship cover and double-page clinical spread on prostate brachytherapy practices and radiosensitivity models, engineered with accessible data tables and peer-reviewed clarity.',
   },
@@ -200,8 +200,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'scope-year-of-eng-showcase',
     title: 'Scope Magazine "Year of Engineering" 3D Cover Feature',
     sourcePage: 'Scope Magazine (Vol 27 Issue 3, September 2018)',
-    sourceUrl: '/assets/aistudio/photo-7_56c88fea.jpg',
-    imageUrl: '/assets/aistudio/photo-7_56c88fea.jpg',
+    sourceUrl: './assets/aistudio/photo-7_56c88fea.jpg',
+    imageUrl: './assets/aistudio/photo-7_56c88fea.jpg',
     category: '3D Concept Art Direction & Magazine Cover',
     description: 'Cover art direction for the UK national "Year of Engineering" initiative, featuring precision 3D interlocking mechanical gears for research, biomedical, and clinical engineering disciplines.',
   },
@@ -209,8 +209,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'taxi-uber-pie-showcase',
     title: 'TAXI Magazine: "Shameless Uber Ramps Up The Licence Sweeteners"',
     sourcePage: 'TAXI Magazine (Licensed Taxi Drivers\' Association - Issue 417)',
-    sourceUrl: '/assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
-    imageUrl: '/assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
+    sourceUrl: './assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
+    imageUrl: './assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
     category: 'Trade Union Satire & Tabloid Cover Art Direction',
     description: 'Front cover art direction and custom satirical cartoon of Uber CEO Dara Khosrowshahi crashing through a brick wall bearing an "Uber Pie" bribe, addressing London black cab licensing and Westminster policy.',
   },
@@ -218,8 +218,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'taxi-congestion-crisis-showcase',
     title: 'TAXI Magazine: "Congestion Crisis Campaign Launch" & Mobile Van Fleet',
     sourcePage: 'TAXI Magazine (Licensed Taxi Drivers\' Association - Issues 380 & 381)',
-    sourceUrl: '/assets/aistudio/cwvknjkweaiiqfm-800x400_264d6cd2.jpeg',
-    imageUrl: '/assets/aistudio/cwvknjkweaiiqfm-800x400_264d6cd2.jpeg',
+    sourceUrl: './assets/aistudio/cwvknjkweaiiqfm-800x400_264d6cd2.jpeg',
+    imageUrl: './assets/aistudio/cwvknjkweaiiqfm-800x400_264d6cd2.jpeg',
     category: 'Public Policy Campaign & Multi-Format Press Rollout',
     description: 'Integrated multimedia campaign launch pairing bi-weekly newspaper print distribution with mobile digital ad-van fleet across central London ("Congestion is Killing London - Keep London Alive").',
   },
@@ -227,8 +227,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'taxi-pinocchio-meter-showcase',
     title: 'TAXI Magazine: "LTDA Demands Probe Into False Taximeter Evidence"',
     sourcePage: 'TAXI Magazine (Licensed Taxi Drivers\' Association - Issue 409)',
-    sourceUrl: '/assets/aistudio/blog-5-800x550_a6aa1a39.jpg',
-    imageUrl: '/assets/aistudio/blog-5-800x550_a6aa1a39.jpg',
+    sourceUrl: './assets/aistudio/blog-5-800x550_a6aa1a39.jpg',
+    imageUrl: './assets/aistudio/blog-5-800x550_a6aa1a39.jpg',
     category: 'Investigative Editorial Cover & Photo Manipulation',
     description: 'Investigative newspaper front cover and interior double-page spread exposing TfL regulatory evidence and court testimony through iconic satirical photo-manipulation.',
   },
@@ -236,8 +236,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'bch-exec-services-showcase',
     title: 'Executive Services London: "Accelerate YOUR Passion" Prestige Fleet Brochure',
     sourcePage: 'Blaize Carr Holdings (Executive Services London Ltd)',
-    sourceUrl: '/assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
-    imageUrl: '/assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
+    sourceUrl: './assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
+    imageUrl: './assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
     category: 'Prestige Automotive & Corporate Publication Design',
     description: 'Prestige automotive hire brochure design for Executive Services London Ltd (Blaize Carr Holdings), featuring metallic brand palette, Rolls-Royce Spirit of Ecstasy emblem, and luxury fleet positioning.',
   },
@@ -245,8 +245,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'msb-multivariant-showcase',
     title: 'MySheaButter Organic Cosmetics: Full Packaging Labels & 3D Jars Suite',
     sourcePage: 'MySheaButter Organic Skincare Line',
-    sourceUrl: '/assets/aistudio/Mysheabutter5_e4736a88.png',
-    imageUrl: '/assets/aistudio/Mysheabutter5_e4736a88.png',
+    sourceUrl: './assets/aistudio/Mysheabutter5_e4736a88.png',
+    imageUrl: './assets/aistudio/Mysheabutter5_e4736a88.png',
     category: 'Cosmetics Packaging & 3D Render Art Direction',
     description: 'Complete multi-variant packaging label system (Tropical Cool, Sweet Cherry, Tropical Sweetness, Baby Powder, So Natural, Parisienne Vanilla) with regulatory QR codes, Halal/Vegan marks, and 3D studio product renders.',
   },
@@ -254,8 +254,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'madison-lifestyle-showcase',
     title: 'Madison: High-Fashion & Luxury Lifestyle Editorial Layout',
     sourcePage: 'Madison Brand Identity & Editorial Systems',
-    sourceUrl: '/assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
-    imageUrl: '/assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
+    sourceUrl: './assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
+    imageUrl: './assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
     category: 'Fashion & Lifestyle Editorial Art Direction',
     description: 'Sophisticated editorial spread pacing and typographic scale balancing luxury minimalism with bold visual hierarchy for Madison.',
   },
@@ -263,8 +263,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'geoscientist-recruitment-showcase',
     title: 'Geoscientist Jobs: Recruitment Advertising & Career Portal Banners',
     sourcePage: 'Geoscientist Magazine & Geological Society of London',
-    sourceUrl: '/assets/aistudio/Geoscience_Jobs_Geoscientist1_080283c9.jpeg',
-    imageUrl: '/assets/aistudio/Geoscience_Jobs_Geoscientist1_080283c9.jpeg',
+    sourceUrl: './assets/aistudio/Geoscience_Jobs_Geoscientist1_080283c9.jpeg',
+    imageUrl: './assets/aistudio/Geoscience_Jobs_Geoscientist1_080283c9.jpeg',
     category: 'Scientific Recruitment Advertising & Campaign Design',
     description: 'Targeted recruitment display campaign and career portal banners designed for Geoscientist Jobs, connecting energy, academic, and seismic institutions with earth science fellows.',
   },
@@ -272,8 +272,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'motorsport-network-mpu-showcase',
     title: 'Motorsport Network: Autosport Digital Campaign & F1 Adverts Suite',
     sourcePage: 'Motorsport Network / Autosport',
-    sourceUrl: '/assets/aistudio/archive_extracted/Motorsport Network/msn-4.png',
-    imageUrl: '/assets/aistudio/archive_extracted/Motorsport Network/msn-4.png',
+    sourceUrl: './assets/aistudio/archive_extracted/Motorsport Network/msn-4.png',
+    imageUrl: './assets/aistudio/archive_extracted/Motorsport Network/msn-4.png',
     category: 'High-Velocity Sports Marketing & Digital Ads',
     description: 'High-conversion digital ad units, animated advertising banners, and MPUs engineered for global motorsport and Formula 1 audiences.',
   },
@@ -281,8 +281,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'nsfw-vault-showcase',
     title: 'National Storage for Wills: Vault Security & Legal Protection Leaflet',
     sourcePage: 'National Storage for Wills',
-    sourceUrl: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
-    imageUrl: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
+    sourceUrl: './assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
+    imageUrl: './assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
     category: 'Legal Document Security & Client Guidance Collateral',
     description: 'Bank-grade vault visual architecture, confidentiality guarantees, QR code integration, and retrieval fee waiver promotions for National Storage for Wills.',
   },
@@ -290,8 +290,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'sath-schedule-showcase',
     title: 'Sport At The Heart (SatH): Term-Time Community Sessions Schedule',
     sourcePage: 'Sport At The Heart (Registered Charity CIO 1168659)',
-    sourceUrl: '/assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
-    imageUrl: '/assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
+    sourceUrl: './assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
+    imageUrl: './assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
     category: 'Community Sports & Wellbeing Communications',
     description: 'Inclusive weekly timetable design ("CONNECT. GROW. THRIVE.") delivered across Brent community centres in partnership with Brent Council, John Lyon\'s Charity, City Bridge Foundation, and Wembley National Stadium Trust.',
   },
@@ -299,8 +299,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'bhp-strategy-showcase',
     title: 'Brent Housing Partnership: Income Management Strategy 2006-2009 Multi-Page Spread',
     sourcePage: 'Brent Housing Partnership (BHP) / Brent Council',
-    sourceUrl: '/assets/extracted_new/brent_housing_partnership/a-portfolio-17-2000x1377.png',
-    imageUrl: '/assets/extracted_new/brent_housing_partnership/a-portfolio-17-2000x1377.png',
+    sourceUrl: './assets/extracted_new/brent_housing_partnership/a-portfolio-17-2000x1377.png',
+    imageUrl: './assets/extracted_new/brent_housing_partnership/a-portfolio-17-2000x1377.png',
     category: 'Civic Housing Strategy & Financial Analytics',
     description: 'Comprehensive municipal publication design featuring 3D demographic pie charts, rent collection trends, ethnic monitoring analysis, and tenant roadshow editorial coverage.',
   },
@@ -308,8 +308,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'bch-airport-fleet-showcase',
     title: 'Executive Services London: Luxury Fleet & Airport Meet & Greet Editorial Spread',
     sourcePage: 'Blaize Carr Holdings / Executive Services London',
-    sourceUrl: '/assets/aistudio/Blaize_Carr11_a14fa813.png',
-    imageUrl: '/assets/aistudio/Blaize_Carr11_a14fa813.png',
+    sourceUrl: './assets/aistudio/Blaize_Carr11_a14fa813.png',
+    imageUrl: './assets/aistudio/Blaize_Carr11_a14fa813.png',
     category: 'Luxury Automotive & Corporate Publication Design',
     description: 'High-gloss editorial spreads profiling Porsche GT2 performance, Cayenne Airport Meet & Greet services for Luton & Gatwick, and six-tier vehicle hire fleet categorization.',
   },
@@ -317,8 +317,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'msb-zen-stone-showcase',
     title: 'MySheaButter: Organic Body Cream & Jar Lid Zen Stone Balancing Studio Shoot',
     sourcePage: 'MySheaButter Organic Skincare Line',
-    sourceUrl: '/assets/aistudio/MySheaButter11_20d88012.jpg',
-    imageUrl: '/assets/aistudio/MySheaButter11_20d88012.jpg',
+    sourceUrl: './assets/aistudio/MySheaButter11_20d88012.jpg',
+    imageUrl: './assets/aistudio/MySheaButter11_20d88012.jpg',
     category: 'Product Studio Photography & Cosmetics Advertising',
     description: 'Clean minimalist still life composition featuring 200ml pump lotion bottle, botanical heart emblem jar lid, and natural balanced river stones.',
   },
@@ -326,8 +326,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'geo-sugar-sheets-showcase',
     title: 'Geoscientist: 50+ Covers Commemorative Sugar Sheets & Rock Hammers Retrospective',
     sourcePage: 'Geoscientist Magazine / Geological Society of London',
-    sourceUrl: '/assets/aistudio/Geoscientist_magazine_covers_as_cake_topper_sugarsheets_9180e218.jpeg',
-    imageUrl: '/assets/aistudio/Geoscientist_magazine_covers_as_cake_topper_sugarsheets_9180e218.jpeg',
+    sourceUrl: './assets/aistudio/Geoscientist_magazine_covers_as_cake_topper_sugarsheets_9180e218.jpeg',
+    imageUrl: './assets/aistudio/Geoscientist_magazine_covers_as_cake_topper_sugarsheets_9180e218.jpeg',
     category: 'Editorial Retrospective & Historical Milestone',
     description: 'Over 50 published Geoscientist covers art-directed by Jonny Coke, rendered onto edible sugar sheets alongside Estwing geological rock hammers and field equipment.',
   },
@@ -335,9 +335,9 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'dewalt-1080p-video-showcase',
     title: 'DeWalt Workwear: 3D Product Launch Video Animation (Full HD 1080p)',
     sourcePage: 'Dragonfly Ventures / DeWalt & Stanley Workwear',
-    sourceUrl: '/assets/aistudio/DeWalt_Dragonfly_95f16727.mp4',
-    imageUrl: '/assets/aistudio/dewalt_dragonfly_video_thumb.jpg',
-    videoUrl: '/assets/aistudio/DeWalt_Dragonfly_95f16727.mp4',
+    sourceUrl: './assets/aistudio/DeWalt_Dragonfly_95f16727.mp4',
+    imageUrl: './assets/aistudio/dewalt_dragonfly_video_thumb.jpg',
+    videoUrl: './assets/aistudio/DeWalt_Dragonfly_95f16727.mp4',
     isVideo: true,
     category: '3D Motion Graphics & Broadcast Commercial Video',
     description: 'Broadcast commercial 3D footwear launch animation produced for DeWalt Workwear, showcasing safety engineering: Steel Toe Cap, Steel Midsole underfoot protection, and Water Resistant Leather Upper.',
@@ -346,8 +346,8 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'aqua4life-brand-showcase',
     title: 'Aqua 4 Life: Atmospheric Water Generators Corporate Brand Identity',
     sourcePage: 'Aqua 4 Life Clean Technology Brand Suite',
-    sourceUrl: '/assets/aqua4life/aqua4life_logo_brand.png',
-    imageUrl: '/assets/aqua4life/aqua4life_logo_brand.png',
+    sourceUrl: './assets/aqua4life/aqua4life_logo_brand.png',
+    imageUrl: './assets/aqua4life/aqua4life_logo_brand.png',
     category: 'CleanTech & Environmental Brand Identity',
     description: 'Corporate brand identity and typography system for Aqua 4 Life Atmospheric Water Generators, communicating pure ecological water generation on a vibrant ocean cyan background.',
   },
@@ -355,9 +355,9 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'l2r-caskets-showcase',
     title: 'Laying to Rest: Handcrafted Sustainable Solid Wood Caskets',
     sourcePage: 'Laying to Rest Memorial Collection',
-    sourceUrl: '/assets/laying_to_rest/images/L2R2.png',
-    imageUrl: '/assets/laying_to_rest/images/L2R2.png',
-    videoUrl: '/assets/laying_to_rest/videos/casket-showcase.mp4',
+    sourceUrl: './assets/laying_to_rest/images/L2R2.png',
+    imageUrl: './assets/laying_to_rest/images/L2R2.png',
+    videoUrl: './assets/laying_to_rest/videos/casket-showcase.mp4',
     isVideo: false,
     category: 'Sustainable Craftsmanship & Memorial Product Design',
     description: 'Suite of four bespoke handcrafted solid wood memorial caskets (Pine, Walnut, Oak, and Cedar) designed with OpenDyslexic accessible literature, natural beeswax finishes, and sustainable forestry principles.',
@@ -366,9 +366,9 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     id: 'l2r-casket-video-motion',
     title: 'Laying to Rest: 4K Casket 3D Motion Showcase Video',
     sourcePage: 'Laying to Rest Memorial Media Production',
-    sourceUrl: '/assets/laying_to_rest/videos/casket-showcase.mp4',
-    imageUrl: '/assets/laying_to_rest/videos/casket_showcase_thumb.jpg',
-    videoUrl: '/assets/laying_to_rest/videos/casket-showcase.mp4',
+    sourceUrl: './assets/laying_to_rest/videos/casket-showcase.mp4',
+    imageUrl: './assets/laying_to_rest/videos/casket_showcase_thumb.jpg',
+    videoUrl: './assets/laying_to_rest/videos/casket-showcase.mp4',
     isVideo: true,
     category: 'Product Motion & 3D Video Showcase',
     description: 'Cinematic 4K 3D motion showcase presentation highlighting the joinery, seamless bevelled corners, and sustainable solid wood grain of the Laying to Rest memorial collection.',
@@ -378,7 +378,7 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     title: 'HeartNeuro: Sensory-Conscious Dating & Discovery UI Architecture',
     sourcePage: 'HeartNeuro (https://heartneuro.love)',
     sourceUrl: 'https://heartneuro.love',
-    imageUrl: '/assets/heartneuro/screenshot-discover.jpg',
+    imageUrl: './assets/heartneuro/screenshot-discover.jpg',
     category: 'Sensory-Conscious UI Architecture & Mobile App Design',
     description: 'Authentic mobile app UI screens for HeartNeuro (heartneuro.love), a sensory-friendly dating application engineered for autistic, ADHD, and neurodivergent singles with unmasked connection modes, quiet venue guides, and low-anxiety date tools.',
   },
@@ -387,7 +387,7 @@ export const AUTHENTIC_JONNYCOKE_IMAGES: AuthenticSubpageImage[] = [
     title: 'HeartNeuro: Quiet Venues & Safety Beacon Architecture',
     sourcePage: 'HeartNeuro (https://heartneuro.love)',
     sourceUrl: 'https://heartneuro.love',
-    imageUrl: '/assets/heartneuro/screenshot-venues.jpg',
+    imageUrl: './assets/heartneuro/screenshot-venues.jpg',
     category: 'Civic Safety & Sensory Venue Certification',
     description: 'Sensory-certified quiet date venue index and live GPS safety beacon system with Regional NHS Crisis Hub integration and sensory pacing communication badges.',
   },
@@ -592,7 +592,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Audience Reach', value: '56 Member Nations' },
       { label: 'Events Covered', value: 'Royal Family & High Commissioners' },
     ],
-    coverImage: '/portfolio/pages/page_01.png',
+    coverImage: './portfolio/pages/page_01.png',
     artworkPieces: [
       {
         id: 'cw-no-more',
@@ -602,7 +602,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Digital Campaign Assets • Global Rollout across 56 Nations',
         description:
           'Coordinated visual communication and digital asset architecture for high-profile international assemblies attended by members of the Royal Family and Commonwealth High Commissioners.',
-        previewUrl: '/portfolio/pages/page_01.png',
+        previewUrl: './portfolio/pages/page_01.png',
         specs: ['56 Commonwealth Nations Reach', 'Royal Family Assemblies', 'Global Social Media Campaign'],
       },
       {
@@ -613,7 +613,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Multi-Device HTML Email • 45% Verified Open Rate',
         description:
           'Authored responsive HTML email editions of the Commonwealth Blue Charter newsletter achieving 45% verified email open rates across international delegations.',
-        previewUrl: '/portfolio/pages/page_01.png',
+        previewUrl: './portfolio/pages/page_01.png',
         specs: ['45% Verified Open Rate', 'WCAG AAA Color Contrast', 'Ocean Action Working Groups'],
       },
     ],
@@ -647,7 +647,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Distribution', value: 'London Taxi & Private Hire' },
       { label: 'Standard', value: 'Full WCAG Accessible PDF' },
     ],
-    coverImage: '/portfolio/pages/page_04.png',
+    coverImage: './portfolio/pages/page_04.png',
     artworkPieces: [
       {
         id: 'tfl-on-route-25',
@@ -657,7 +657,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '32-Page A4 Magazine • WCAG Accessible PDF Tagging',
         description:
           'Sole lead designer for the landmark 32-page Issue 25 of TfL\'s On Route magazine, serving London\'s Taxi and Private Hire industry with full WCAG accessibility compliance.',
-        previewUrl: '/portfolio/pages/page_04.png',
+        previewUrl: './portfolio/pages/page_04.png',
         specs: ['Official TfL Publication', 'Full WCAG Tagged PDF Structure', 'Johnston Typeface System'],
       },
       {
@@ -668,7 +668,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Full Page Metro Newspaper Spreads • High-Density Transit News',
         description:
           'Crafted TfL\'s dedicated travel editorial spreads for Metro commuter newspaper, viewed by millions of daily London transit passengers.',
-        previewUrl: '/portfolio/pages/page_05.png',
+        previewUrl: './portfolio/pages/page_05.png',
         specs: ['Read by Millions Daily', 'Iconic TfL Roundel Integration', 'Urban Transit Hierarchy'],
       },
     ],
@@ -707,7 +707,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Years', value: 'May 2015 – Dec 2017' },
       { label: 'Digital PDFs', value: '29 Full PDF Archives' },
     ],
-    coverImage: '/assets/aistudio/IMG_5996_7f12e8e4.jpeg',
+    coverImage: './assets/aistudio/IMG_5996_7f12e8e4.jpeg',
     artworkPieces: [
       {
         id: 'geo-cover-dk0',
@@ -716,7 +716,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Scientific Publication Cover • PPA Nominee',
         dimensions: 'A4 Portrait • CMYK 300 DPI Pre-Press',
         description: 'PPA Cover of the Year nominated flagship fellowship cover design for the Geological Society of London ("Blowing hot & cold: The history of climate-change science from 1750 to the dawn of the 20th Century"), Vol 27 No 4, May 2017.',
-        previewUrl: '/assets/aistudio/IMG_5996_7f12e8e4.jpeg',
+        previewUrl: './assets/aistudio/IMG_5996_7f12e8e4.jpeg',
         specs: ['PPA Cover of the Year Nominee', 'Geological Society of London (Vol 27 No 4)', '300 DPI Prepress Standard'],
       },
       {
@@ -726,7 +726,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Recruitment Advertising & Career Portal',
         dimensions: 'Digital Banner & Print Display Ad',
         description: 'Recruitment marketing campaign banner for Geoscientist Jobs, connecting fellows and earth science professionals with academic, industry, and seismic appointments.',
-        previewUrl: '/assets/aistudio/Geoscience_Jobs_Geoscientist1_080283c9.jpeg',
+        previewUrl: './assets/aistudio/Geoscience_Jobs_Geoscientist1_080283c9.jpeg',
         specs: ['Fellowship Career Network', 'Direct Hiring Channel', 'Geological Society of London'],
       },
       {
@@ -736,7 +736,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Career Portal Display Advertising',
         dimensions: 'Digital Banner & Online Portal Display',
         description: 'Recruitment ad banner variant promoting specialized career opportunities in geoscience, mineral exploration, and environmental consulting.',
-        previewUrl: '/assets/aistudio/Geoscience_Jobs_Geoscientist2_ede1d01f.jpeg',
+        previewUrl: './assets/aistudio/Geoscience_Jobs_Geoscientist2_ede1d01f.jpeg',
         specs: ['Digital Portal Integration', 'Targeted Earth Sciences Demographics', 'High-Clarity Vector Typography'],
       },
       {
@@ -746,7 +746,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Fellowship Magazine Cover Art Direction',
         dimensions: 'A4 Publication Master Cover (Vol 26 No 2, March 2016)',
         description: 'Iconic cover art direction pairing the Union Jack flag with industrial seismic pumpjack silhouette exploring Britain\'s historic petroleum heritage.',
-        previewUrl: '/portfolio/pages/page_06.png',
+        previewUrl: './portfolio/pages/page_06.png',
         specs: ['Vol 26 No 2 Master Press Archive', 'Union Jack Watercolor & Vector Typography', 'Geological Society of London'],
       },
       {
@@ -756,7 +756,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Scientific Publication Cover Art Direction',
         dimensions: 'A4 Publication Master Cover (Vol 27 No 2, March 2017)',
         description: 'Dramatic aerial surveying feature cover depicting high-precision camera drone over glacial terrain for topological 3D point-cloud mapping.',
-        previewUrl: '/portfolio/pages/page_07.png',
+        previewUrl: './portfolio/pages/page_07.png',
         specs: ['Glacial Landscape Cartography', 'Photogrammetry & Drone Surveying', 'A4 300 DPI Prepress Master'],
       },
       {
@@ -766,7 +766,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Global Policy & Scientific Cover Art Direction',
         dimensions: 'A4 Publication Master Cover (Vol 27 No 5, June 2017)',
         description: 'Impactful cover conceptual art uniting the United Nations emblem and Sustainable Development Goals with human geological stewardship.',
-        previewUrl: '/portfolio/pages/page_09.png',
+        previewUrl: './portfolio/pages/page_09.png',
         specs: ['United Nations SDG Policy Alignment', 'Human Environmental Stewardship', 'Official Geological Society of London'],
       },
       {
@@ -777,7 +777,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Commemorative Exhibition Specimen • 50+ Published Covers Matrix',
         description:
           'Celebratory milestone installation displaying more than 50 published Geoscientist magazine covers art-directed by Jonny Coke, printed onto edible sugar sheet tiles alongside geological Estwing rock hammers, handcrafted geologist mascot, and a tribute portrait celebrating years of editorial excellence.',
-        previewUrl: '/assets/aistudio/Geoscientist_magazine_covers_as_cake_topper_sugarsheets_9180e218.jpeg',
+        previewUrl: './assets/aistudio/Geoscientist_magazine_covers_as_cake_topper_sugarsheets_9180e218.jpeg',
         specs: ['50+ Cover Landmark Art-Direction Retrospective', 'Geological Society Fellowship Milestone', 'Edible Sugar Sheet Exhibition Matrix & Field Equipment'],
       },
     ],
@@ -811,7 +811,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Innovation', value: 'First AR Magazine' },
       { label: 'Follower Growth', value: '15K+ Audience' },
     ],
-    coverImage: '/videos/dtcover1-ar-thumb.png',
+    coverImage: './videos/dtcover1-ar-thumb.png',
     artworkPieces: [
       {
         id: 'co-ar-cover1',
@@ -820,7 +820,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Augmented Reality & Print Innovation',
         dimensions: 'A4 Portrait • Interactive AR Marker Matrix',
         description: 'Industry-first interactive AR print edition bridging tactile paper with real-time 3D mobile models and motion layers.',
-        previewUrl: '/videos/dtcover1-ar-thumb.png',
+        previewUrl: './videos/dtcover1-ar-thumb.png',
         videoUrl: 'https://youtube.com/shorts/FWwvsqd4Gcg?si=779uiQqzg0WxBYoi',
         specs: ['First Sector AR Magazine', 'PPA Awards Finalist Project', 'Bridging Print & 3D Interactive'],
       },
@@ -831,7 +831,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Interactive Print & AR Triggers',
         dimensions: 'A4 Double Page Spread • Master Press Archive',
         description: 'Interactive Augmented Reality print edition demonstrating tablet-to-paper optical trigger recognition and multi-edition cover gallery.',
-        previewUrl: '/portfolio/pages/page_02.png',
+        previewUrl: './portfolio/pages/page_02.png',
         specs: ['Blippar AR Marker Recognition', 'Dynamic 3D Overlay Mapping', 'Century One Publishing Innovation'],
       },
     ],
@@ -865,7 +865,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'AR Video', value: 'Interactive Demonstration' },
       { label: 'Discipline', value: 'Clinical Nutrition' },
     ],
-    coverImage: '/videos/dtcover1-ar-thumb.png',
+    coverImage: './videos/dtcover1-ar-thumb.png',
     artworkPieces: [
       {
         id: 'dt-cover-1',
@@ -874,7 +874,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Professional Journal Cover Design & AR',
         dimensions: 'A4 Magazine Cover • Video Demonstration',
         description: 'Flagship cover design for the British Dietetic Association (BDA), featuring scannable augmented reality integration and clinical nutritional hierarchy.',
-        previewUrl: '/videos/dtcover1-ar-thumb.png',
+        previewUrl: './videos/dtcover1-ar-thumb.png',
         videoUrl: 'https://youtube.com/shorts/FWwvsqd4Gcg?si=779uiQqzg0WxBYoi',
         specs: ['Official BDA Journal', 'Interactive AR Marker Grid', 'Prepress CMYK 300 DPI'],
       },
@@ -885,7 +885,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Clinical Editorial Layout & Infographics',
         dimensions: 'A4 Double Page Spread (May 2018 Archive)',
         description: 'Complex clinical guideline breakdown, CPD webinar guide, and adolescent health eating disorder features engineered with proportional typographic rhythm.',
-        previewUrl: '/portfolio/pages/page_03.png',
+        previewUrl: './portfolio/pages/page_03.png',
         specs: ['BDA May 2018 Editorial Spread', 'Proportional Typographic Rhythm', 'CPD Webinar & Healthcare Features'],
       },
       {
@@ -895,7 +895,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Augmented Reality Print Spreads & Tablet Scanning',
         dimensions: 'A4 Double Page Spread • Blippar Marker Matrix',
         description: 'Tactile-to-digital demonstration layout showcasing iPad scanning of the physical magazine to unlock interactive 3D content alongside 7-issue cover archive.',
-        previewUrl: '/portfolio/pages/page_02.png',
+        previewUrl: './portfolio/pages/page_02.png',
         specs: ['Blippar AR Optical Recognition', 'Tablet-to-Paper Scanner Demonstration', '7-Issue Membership Cover Row'],
       },
     ],
@@ -917,8 +917,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Conducted A/B testing to refine messaging hierarchy, typographic balance, and subscription conversions.',
       'Print adverts placed in globally distributed premier racing publications.',
     ],
-    externalUrl: '/portfolio/MSN-3.png',
-    sampleUrl: '/portfolio/MSN-3.png',
+    externalUrl: './portfolio/MSN-3.png',
+    sampleUrl: './portfolio/MSN-3.png',
     tags: ['Motorsport Network', 'Autosport', 'Formula 1', 'A/B Testing', 'Animated Adverts', 'MPUs'],
     color: '#ef4444',
     accentColor: '#fca5a5',
@@ -929,7 +929,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Optimization', value: 'Continuous A/B Testing' },
       { label: 'Formats', value: 'MPUs, Digital & Print' },
     ],
-    coverImage: '/portfolio/MSN-3.png',
+    coverImage: './portfolio/MSN-3.png',
     artworkPieces: [
       {
         id: 'msn-ad-3',
@@ -938,7 +938,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'National Print & Digital Subscription Campaign',
         dimensions: 'A4 Magazine Page • High DPI Master Press Archive',
         description: 'Autosport Father’s Day national direct-response campaign ("Try 6 Issues of Autosport for £6") featuring Brabham BT52 Haynes workshop manual bonus.',
-        previewUrl: '/portfolio/MSN-3.png',
+        previewUrl: './portfolio/MSN-3.png',
         specs: ['Autosport National Campaign', 'Brabham BT52 Incentive', 'Direct Debit Subscription Funnel'],
       },
       {
@@ -948,7 +948,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Global Racing Digital Campaign',
         dimensions: 'Wide Format Digital Leaderboard & Billboard',
         description: 'High-velocity digital advertising campaign engineered for Motorsport Network and Autosport, built to maximize conversion across racing audiences.',
-        previewUrl: '/portfolio/MSN-3.png',
+        previewUrl: './portfolio/MSN-3.png',
         specs: ['Global Motorsport Audience', 'A/B Tested Typographic Messaging', 'High-Contrast Trackside Dynamic'],
       },
       {
@@ -958,7 +958,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Digital Ad Units & MPUs',
         dimensions: 'Standard MPU & Billboard Asset Suite',
         description: 'A/B tested digital conversion advert with optimized call-to-actions, responsive font sizing, and dynamic motorsport imagery.',
-        previewUrl: '/assets/aistudio/archive_extracted/Motorsport Network/msn-4.png',
+        previewUrl: './assets/aistudio/archive_extracted/Motorsport Network/msn-4.png',
         specs: ['A/B Conversion Testing', 'Mobile & Desktop Optimized', 'Fast-Paced Racing Visuals'],
       },
       {
@@ -968,7 +968,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Digital Adverts & Editorial Features',
         dimensions: 'Editorial Display Graphic • 800×1138 High DPI',
         description: 'Dynamic digital campaign and racing editorial feature layout designed for Autosport and Motorsport Network readership.',
-        previewUrl: '/assets/aistudio/archive_extracted/Motorsport Network/msn-2.png',
+        previewUrl: './assets/aistudio/archive_extracted/Motorsport Network/msn-2.png',
         specs: ['Formula 1 Editorial Feature', 'A/B Tested Digital Creative', 'Motorsport Network Authority'],
       },
       {
@@ -978,7 +978,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Event Branding & Media Backdrop',
         dimensions: 'Large-Format Step-and-Repeat Media Wall • VIP Screening',
         description: 'Official press photo-call media wall and event backdrop designed for Motorsport Network\'s "HEROES" film premiere in London.',
-        previewUrl: '/portfolio/pages/page_33.png',
+        previewUrl: './portfolio/pages/page_33.png',
         specs: ['VIP Premiere Branding', 'Step-and-Repeat Vector Architecture', 'London Red Carpet Event'],
       },
     ],
@@ -1000,8 +1000,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Mayor of Brent ceremonial presentations and library service collateral.',
       'Multi-lingual civic informational accessibility and photo retouching.',
     ],
-    externalUrl: '/assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
-    sampleUrl: '/assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
+    externalUrl: './assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
+    sampleUrl: './assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
     tags: ['Brent Council', 'Civic Design', 'Public Health', 'Brent Magazine', 'Infographics'],
     color: '#059669',
     accentColor: '#34d399',
@@ -1012,7 +1012,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Campaigns', value: 'Public Health & Libraries' },
       { label: 'Impact', value: '330,000+ Borough Residents' },
     ],
-    coverImage: '/assets/aistudio/shisha_campaign_cover.png',
+    coverImage: './assets/aistudio/shisha_campaign_cover.png',
     artworkPieces: [
       {
         id: 'brent-shisha',
@@ -1021,7 +1021,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Public Health & Civic Communications',
         dimensions: 'Civic Campaign A5 Multi-Page Suite • 300 DPI Pre-Press',
         description: 'Award-winning clarity: high-impact civic health awareness campaign for London Borough of Brent dispelling myths surrounding shisha smoke toxicity ("Shisha smoked for 45 minutes = 100 cigarettes worth of smoke").',
-        previewUrl: '/assets/aistudio/shisha_campaign_cover.png',
+        previewUrl: './assets/aistudio/shisha_campaign_cover.png',
         specs: ['Reaching 330,000+ Residents', 'High-Contrast Inclusive Visuals', 'Multicultural Civic Accessibility'],
       },
       {
@@ -1031,7 +1031,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Editorial Magazine Spread & Civic Culture',
         dimensions: 'A4 Double-Page Editorial Spread • Spring 2020 Issue (pp. 20-21)',
         description: 'Double-page Arts & Culture editorial feature celebrating Brent\'s rich reggae music history for Brent London Borough of Culture 2020, profiling Lovers Rock legend Carroll Thompson, DJ Shy One, and civic Culture Fund initiatives.',
-        previewUrl: '/assets/aistudio/IMG_6001_6f94d77f.jpeg',
+        previewUrl: './assets/aistudio/IMG_6001_6f94d77f.jpeg',
         specs: ['Your Brent Magazine Spring 2020 (pp. 20-21)', 'Civic Culture & Heritage Editorial Feature', 'London Borough of Culture 2020 Typography'],
       },
       {
@@ -1041,7 +1041,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Civic Enforcement & Environmental Campaign',
         dimensions: 'Full A4 Editorial Page • Spring 2020 Issue (p. 32)',
         description: 'High-impact civic enforcement feature and public awareness campaign tackling fly-tipping and grime crime across the borough, integrating CCTV appeal evidence and "Love Where You Live" municipal branding.',
-        previewUrl: '/assets/aistudio/IMG_5999_15e8dad9.jpeg',
+        previewUrl: './assets/aistudio/IMG_5999_15e8dad9.jpeg',
         specs: ['Your Brent Magazine Spring 2020 (p. 32)', 'CCTV Grime Crime Public Appeal Layout', 'Love Where You Live Civic Branding'],
       },
       {
@@ -1051,7 +1051,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Mayoral Ceremonial & VIP Event Collateral',
         dimensions: 'Civic VIP Invitation Card & Itinerary Display',
         description: 'Official ceremonial VIP invitation for Mayor of Brent Cllr Ernest Ezeajughi hosting an exclusive tour of Wembley Stadium, incorporating the iconic Wembley Arch photography, mayoral chains of office portrait, and Brent civic identity.',
-        previewUrl: '/assets/aistudio/image_e4980fe9.png',
+        previewUrl: './assets/aistudio/image_e4980fe9.png',
         specs: ['Office of the Mayor of Brent Cllr Ernest Ezeajughi', 'Official Wembley Stadium Event Branding', 'Timetable, Security Protocol & Accessibility Badging'],
       },
       {
@@ -1061,7 +1061,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Civic Housing Strategy & Financial Analytics',
         dimensions: 'Full Strategy Document Suite • 3D Analytics & Demographic Spread',
         description: 'Comprehensive municipal publication design for Brent Housing Partnership (BHP) Income Management Strategy, featuring full color-coded pie charts, ethnic monitoring demographics, Rents Roadshow Kilburn Times editorial coverage, and collection performance metrics.',
-        previewUrl: '/assets/extracted_new/brent_housing_partnership/a-portfolio-17-2000x1377.png',
+        previewUrl: './assets/extracted_new/brent_housing_partnership/a-portfolio-17-2000x1377.png',
         specs: ['BHP Executive Strategy Document', '3D Demographic Pie Charts & Financial Data Tables', 'Tenant Engagement & Rents Roadshow Layouts'],
       },
       {
@@ -1071,7 +1071,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Exhibition & Large-Format Event Graphics',
         dimensions: 'Pop-Up Exhibition Stand Display • Interchangeable Velcro Modular System',
         description: 'Large-format branded event display system created for BHP\'s 5th Anniversary & Awards Ceremony and Resident\'s Open House at Paul Daisley Hall, Brent Town Hall, Wembley. Features curved photographic roundels of local residents, estate architecture, and modular velcro event banners.',
-        previewUrl: '/assets/extracted_new/brent_housing_partnership/a-portfolio-18-2000x1377.png',
+        previewUrl: './assets/extracted_new/brent_housing_partnership/a-portfolio-18-2000x1377.png',
         specs: ['Brent Town Hall Wembley Civic Event', 'Photographic Roundel Vignettes', 'Interchangeable Modular Velcro Banner System'],
       },
       {
@@ -1081,7 +1081,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Publication 3D Mockup & Portfolio Presentation',
         dimensions: 'Prepress Presentation Mockup',
         description: '3D perspective studio mockup of the official Brent Housing Partnership Income Management Strategy brochure, showcasing cover typography, dynamic gradient arc identity, and crisp print finishing.',
-        previewUrl: '/assets/extracted_new/brent_housing_partnership/blog-8-800x556.jpg',
+        previewUrl: './assets/extracted_new/brent_housing_partnership/blog-8-800x556.jpg',
         specs: ['BHP Brand Identity Arc & Typography', 'Print Specimen Mockup', 'Civic Housing Collateral'],
       },
     ],
@@ -1113,7 +1113,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Deliverables', value: 'POS Displays & 3D Video' },
       { label: 'Audience', value: 'Global Trade & Construction' },
     ],
-    coverImage: '/assets/aistudio/image_6d5c3406.jpeg',
+    coverImage: './assets/aistudio/image_6d5c3406.jpeg',
     artworkPieces: [
       {
         id: 'dv-dewalt-woodridge-pos',
@@ -1123,7 +1123,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Retail Point-of-Sale Unit • Howdens Commercial Campaign',
         description:
           'Point of sale display box and promotional header card designed for DeWalt licensed footwear (Howdens "DeWalt Woodridge" premium nubuck leather work boots with steel toe cap, special purchase campaign).',
-        previewUrl: '/assets/aistudio/image_6d5c3406.jpeg',
+        previewUrl: './assets/aistudio/image_6d5c3406.jpeg',
         specs: ['DeWalt Guaranteed Tough Brand Standards', 'Howdens Point-of-Sale Display Architecture', 'Special Purchase Campaign Callouts'],
       },
       {
@@ -1134,7 +1134,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Large Format Retail Unit • CMYK 300 DPI Pre-Press',
         description:
           'Modular retail floor stand graphics, shelf-talkers, and branded merchant facings engineered for DeWalt Guaranteed Tough and Stanley FatMax licensed heavy-duty workwear.',
-        previewUrl: '/portfolio/dragonfly-img-3937.svg',
+        previewUrl: './portfolio/dragonfly-img-3937.svg',
         specs: ['300 DPI ISO 12647-2 Pre-Press', 'Spot UV & Spot Color Calibration', 'Trade Merchant Rollout across UK/EU'],
       },
       {
@@ -1145,7 +1145,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Die-Cut Card & Carton Artworking • 1:1 Scale',
         description:
           'Technical packaging die-lines, heavy-duty carton box art, hanging tag systems with eyelets, care symbol artworking, and EAN-13 barcode compliance for Stanley licensed workwear.',
-        previewUrl: '/portfolio/dragonfly-img-3867.svg',
+        previewUrl: './portfolio/dragonfly-img-3867.svg',
         specs: ['Custom Die-Cut Fold Indicators', 'EAN-13 Barcode Encoding', 'CORDURA® & EN ISO 13688 Compliance'],
       },
       {
@@ -1156,8 +1156,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Full HD 1080p Video • 15s Commercial Motion Asset',
         description:
           'Broadcast-quality 3D promotional animation produced for DeWalt Workwear, showcasing heavy-duty safety footwear features: Steel Toe Cap, Steel Midsole underfoot protection, and Water Resistant Leather Upper.',
-        previewUrl: '/assets/aistudio/dewalt_dragonfly_video_thumb.jpg',
-        videoUrl: '/assets/aistudio/DeWalt_Dragonfly_95f16727.mp4',
+        previewUrl: './assets/aistudio/dewalt_dragonfly_video_thumb.jpg',
+        videoUrl: './assets/aistudio/DeWalt_Dragonfly_95f16727.mp4',
         specs: ['1080p 60fps Kinetic Product Animation', 'Steel Toe Cap & Midsole Feature Breakdown', 'Industrial Retail Point-of-Sale Launch Video'],
       },
     ],
@@ -1185,7 +1185,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Sector', value: 'Vehicle Electronics' },
       { label: 'Deliverables', value: 'Packaging & Animation' },
     ],
-    coverImage: '/assets/daltec_clean/SCOSCHE_Eshot-260422_copy.jpg',
+    coverImage: './assets/daltec_clean/SCOSCHE_Eshot-260422_copy.jpg',
     artworkPieces: [
       {
         id: 'daltec-scosche-eshot-std',
@@ -1195,7 +1195,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Commercial Direct Marketing Eshot (600px Retina Master)',
         description:
           'High-conversion trade marketing email blast designed for Daltec dealer networks promoting the authorised SCOSCHE vehicle mount and fast-charging StrikeLine product lines.',
-        previewUrl: '/assets/daltec_clean/SCOSCHE_Eshot-260422_copy.jpg',
+        previewUrl: './assets/daltec_clean/SCOSCHE_Eshot-260422_copy.jpg',
         specs: ['Multi-Client HTML Email Compatibility', 'Trade Wholesale Margin Callouts', 'Sent 26-04-2022 to Verified Trade Accounts'],
       },
       {
@@ -1206,7 +1206,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Dynamic Price Slot Edition • Trade Reseller Layout',
         description:
           'Customised dealer reseller edition featuring blank highlighted pricing fields, allowing regional sales reps and automotive stockists to overprint tiered customer prices.',
-        previewUrl: '/assets/daltec_clean/SCOSCHE_Eshot-260422_copy_WITH_BLANKS_FOR_PRICES.jpg',
+        previewUrl: './assets/daltec_clean/SCOSCHE_Eshot-260422_copy_WITH_BLANKS_FOR_PRICES.jpg',
         specs: ['Variable Regional Pricing Callouts', 'Dealer Margin Blank Fields', 'Customizable Wholesale Order CTA'],
       },
       {
@@ -1217,7 +1217,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Wide Chassis Banner Label • 600mm x 100mm Prepress Master',
         description:
           'Heavy-duty industrial vehicle equipment label engineered for Daltec commercial hardware, packaging cases, and distributor showroom displays.',
-        previewUrl: '/assets/daltec_clean/1._Black_Daltec_design_label___(W)60cm_x_(H)10cm.png',
+        previewUrl: './assets/daltec_clean/1._Black_Daltec_design_label___(W)60cm_x_(H)10cm.png',
         specs: ['60cm x 10cm Heavy-Duty Vinyl Specification', 'High-Contrast White on Black Automotive Identity', 'Precision Die-Cut Bleed Guides'],
       },
       {
@@ -1228,7 +1228,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Compact Chassis Label • 250mm x 100mm Prepress Master',
         description:
           'Compact technical equipment label engineered for in-vehicle security modules, wiring enclosures, and distributor packaging boxes.',
-        previewUrl: '/assets/daltec_clean/2._Black_Daltec_design_label___(W)25cm_x_(H)10cm.png',
+        previewUrl: './assets/daltec_clean/2._Black_Daltec_design_label___(W)25cm_x_(H)10cm.png',
         specs: ['25cm x 10cm Compact Specification', 'Direct Vision Standard Equipment Labelling', 'Automotive Fleet Hardening'],
       },
       {
@@ -1239,7 +1239,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Vehicle Electronics Packaging Label • CMYK Pre-Press',
         description:
           'Technical commercial label design for DalTec Mini Light Bar vehicle warning beacons, featuring regulatory compliance specs (ECE R65, 10-30V DC, 19 flash patterns, IP67 waterproof) and high-visibility corporate identity.',
-        previewUrl: '/assets/aistudio/IMG_5997_142faf3b.jpeg',
+        previewUrl: './assets/aistudio/IMG_5997_142faf3b.jpeg',
         specs: ['ECE R65 & IP67 Regulatory Compliance', '10-30V DC Technical Specifications', 'High-Contrast Red & White Automotive Identity'],
       },
       {
@@ -1250,7 +1250,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Wide-Format Chassis Label • 10-30V DC Heavy Duty',
         description:
           'Wide-format technical packaging label engineered for DalTec full-size vehicle light bars, incorporating barcode whiteout window, voltage ratings, and thermal tolerance ranges (-45~60°C).',
-        previewUrl: '/assets/aistudio/IMG_5998_05c1c3c4.jpeg',
+        previewUrl: './assets/aistudio/IMG_5998_05c1c3c4.jpeg',
         specs: ['10-30V DC ECE R65 Approved', 'Barcode & Serial Number Overprint Field', 'Heavy-Duty Industrial Fleet Standards'],
       },
     ],
@@ -1285,7 +1285,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Compliance', value: 'WCAG 2.2 AAA' },
     ],
     isPlaceholder: false,
-    coverImage: '/assets/heartneuro/screenshot-discover.jpg',
+    coverImage: './assets/heartneuro/screenshot-discover.jpg',
     artworkPieces: [
       {
         id: 'hn-discover',
@@ -1295,7 +1295,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '768×1376 Mobile High-DPI Screen',
         description:
           'Low-pressure dating profile interface designed with sensory comfort levels, special interest matching, unmasked compatibility indicators, and calm dark mode contrast.',
-        previewUrl: '/assets/heartneuro/screenshot-discover.jpg',
+        previewUrl: './assets/heartneuro/screenshot-discover.jpg',
         specs: ['Bidirectional Sensory Compatibility', 'Calm Dark Mode Palette (#0A0C10)', 'Unmasked Personality Prompts'],
       },
       {
@@ -1306,7 +1306,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '768×1376 Mobile High-DPI Screen',
         description:
           'Curated low-sensory date venue directory featuring decibel ratings, lighting dimness assessments, crowd-density heatmaps, and neuro-affirming staff training indicators.',
-        previewUrl: '/assets/heartneuro/screenshot-venues.jpg',
+        previewUrl: './assets/heartneuro/screenshot-venues.jpg',
         specs: ['Acoustic Decibel Tracking', 'Ambient Lighting Classification', 'Anxiety-Free Venue Filtering'],
       },
       {
@@ -1317,7 +1317,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '768×1376 Mobile High-DPI Screen',
         description:
           'Comprehensive date safety hub with real-time GPS tracking beacon for trusted emergency contacts, discreet exit protocols, and direct integration with UK NHS regional mental health crisis support teams.',
-        previewUrl: '/assets/heartneuro/screenshot-safety.jpg',
+        previewUrl: './assets/heartneuro/screenshot-safety.jpg',
         specs: ['Live GPS Trusted Contact Ping', 'NHS Crisis Hub One-Tap Link', 'Discreet Exit Strategy Triggers'],
       },
       {
@@ -1328,7 +1328,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '768×1376 Mobile High-DPI Screen',
         description:
           'Asynchronous messaging platform equipped with explicit pacing indicators ("Processing Reply", "Low Social Battery", "Direct Questions Preferred") eliminating dating ambiguity.',
-        previewUrl: '/assets/heartneuro/screenshot-chat.jpg',
+        previewUrl: './assets/heartneuro/screenshot-chat.jpg',
         specs: ['Pacing Indicators & Social Battery Badges', 'No Read-Receipt Anxiety Triggers', 'Plain English Conversational Anchors'],
       },
       {
@@ -1339,7 +1339,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '1376×768 Wide Desktop Interface',
         description:
           'Wide-viewport responsive dashboard demonstrating fluid adaptation from mobile handheld to desktop sensory exploration.',
-        previewUrl: '/assets/heartneuro/screenshot-wide.jpg',
+        previewUrl: './assets/heartneuro/screenshot-wide.jpg',
         specs: ['Fluid CSS Grid Architecture', 'WCAG 2.2 AAA Contrast Consistency', 'Edge Side Panel 480px Layout Support'],
       },
       {
@@ -1350,7 +1350,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '1024×1024 High-Resolution Vector Asset',
         description:
           'Geometric heart-synapse emblem symbolizing neurodivergent romance, biological neural empathy, and dignified sensory safety.',
-        previewUrl: '/assets/heartneuro/app-icon.jpg',
+        previewUrl: './assets/heartneuro/app-icon.jpg',
         specs: ['1024×1024 Master Icon', 'Synapse & Neural Flow Geometry', 'Deep Violet & Radiant Lavender Theme'],
       },
     ],
@@ -1372,8 +1372,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Corporate stationery, visual standards manual, and high-impact vector typography.',
       'Responsive information architecture connecting commercial vehicle hire with central London executive clients.',
     ],
-    externalUrl: '/assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
-    sampleUrl: '/assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
+    externalUrl: './assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
+    sampleUrl: './assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
     tags: ['Blaize Carr', 'Executive Services', 'Luxury Fleet', 'Automotive', 'Brochures', 'Branding'],
     color: '#2563eb',
     accentColor: '#93c5fd',
@@ -1382,7 +1382,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Discipline', value: 'Luxury Fleet & Branding' },
       { label: 'Sector', value: 'Prestige Vehicle Hire' },
     ],
-    coverImage: '/assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
+    coverImage: './assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
     artworkPieces: [
       {
         id: 'bch-exec-services-cover',
@@ -1392,7 +1392,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'A4 Landscape Brochure • High-Gloss Prepress',
         description:
           'Prestige automotive hire brochure cover design for Executive Services London Ltd (Blaize Carr Holdings fleet division, Unimax House, NW10 London). Incorporates refined metallic red-and-charcoal visual architecture, subtle ornamental filigree patterning, and Rolls-Royce Spirit of Ecstasy chrome insignia photography.',
-        previewUrl: '/assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
+        previewUrl: './assets/aistudio/Blaaize_Carr-03_de6d5a0e.jpg',
         specs: ['Prestige Automotive Visual Architecture', 'Rolls-Royce Insignia Photography', 'Executive Services London Ltd (NW10)'],
       },
       {
@@ -1403,7 +1403,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Double Page Editorial Spread • High-Res Master',
         description:
           'Interior editorial spread detailing executive car hire services into Central London, featuring Mercedes-Benz luxury SUV and BMW M3 sports coupe trackside photography, corporate philosophy typography, and booking hierarchy.',
-        previewUrl: '/assets/aistudio/Blaaize_Carr-04_1ed61de8.jpg',
+        previewUrl: './assets/aistudio/Blaaize_Carr-04_1ed61de8.jpg',
         specs: ['Mercedes-Benz & BMW Fleet Highlights', 'Central London Executive Transit Guidelines', 'High-Gloss Prepress Publication Standards'],
       },
       {
@@ -1414,7 +1414,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Double A4 Landscape Editorial Layout • Prepress Master',
         description:
           'Multi-page luxury automotive publication spread: "Make The Right 1st Impression" featuring high-performance GT2 sports coupe, "Airport Meet & Greet: A solution that works for your business" with Porsche Cayenne, and "Vehicle Hire Made Simple: Economy (Fiat 500), Luxury (Rolls-Royce), Performance, Extra Seating (Mercedes GL), Commercial (Transit), Event (Bentley)".',
-        previewUrl: '/assets/aistudio/Blaize_Carr11_a14fa813.png',
+        previewUrl: './assets/aistudio/Blaize_Carr11_a14fa813.png',
         specs: ['Corporate Accounts & Block Plans Architecture', 'Airport Meet & Greet Service Protocols (Luton & Gatwick)', 'Six-Tier Vehicle Hire Categorization'],
       },
       {
@@ -1425,7 +1425,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Vector Monogram & Identity System',
         description:
           'High-speed logistics visual identity combining a delivery truck silhouette, aerodynamic speed lines, and an integrated "W" monogram in high-visibility vermilion and cobalt blue.',
-        previewUrl: '/assets/extracted_new/blaize_carr/drivewise-branding4.jpg',
+        previewUrl: './assets/extracted_new/blaize_carr/drivewise-branding4.jpg',
         specs: ['Dynamic Speed-Line Typography', 'Fleet Vehicle Livery Application', 'High-Visibility Chromatic Contrast'],
       },
       {
@@ -1436,7 +1436,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Vector Monogram & Icon System',
         description:
           'Clean corporate recruitment mark integrating three forward-moving human figures into a winged dynamic "WR" monogram for professional staffing and courier driver talent placement.',
-        previewUrl: '/assets/extracted_new/blaize_carr/wise-recruit-logo.png',
+        previewUrl: './assets/extracted_new/blaize_carr/wise-recruit-logo.png',
         specs: ['HR & Personnel Placement Identity', 'Forward-Motion Workforce Symbolism', 'Clean Vector Scalability'],
       },
       {
@@ -1447,7 +1447,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Social Media Avatar & Digital App Icon',
         description:
           'Digital-optimized app icon and avatar featuring electric pastel coral and mint green colorways designed for high-resolution app store listings and social channels.',
-        previewUrl: '/assets/extracted_new/blaize_carr/drivewise-logo4social.jpg',
+        previewUrl: './assets/extracted_new/blaize_carr/drivewise-logo4social.jpg',
         specs: ['App Store & Social Profile Format', 'High-Contrast Dual Colorways', 'Digital Scalability'],
       },
     ],
@@ -1469,8 +1469,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Art-directed landmark covers including the 2018 "Year of Engineering" 3D gear visual and WWI medical physics history.',
       'Prepress color calibration and micro-photography retouching for scientific and medical diagnostic scans.',
     ],
-    externalUrl: '/assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
-    sampleUrl: '/assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
+    externalUrl: './assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
+    sampleUrl: './assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
     tags: ['Scope IPEM', 'PPA Finalist', 'Medical Physics', 'Editorial Design', 'Bio-engineering', 'Oncology'],
     color: '#0284c7',
     accentColor: '#67e8f9',
@@ -1482,7 +1482,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Circulation', value: 'Quarterly Members' },
       { label: 'Discipline', value: 'Medical Physics' },
     ],
-    coverImage: '/assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
+    coverImage: './assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
     artworkPieces: [
       {
         id: 'scope-ppa-finalist-desk',
@@ -1492,7 +1492,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Magazine Spread & Tablet Presentation Suite',
         description:
           'Scope March 2017 (Vol 26 Issue 1) celebrating IPEM\'s nomination as PPA 2016 Finalist for Membership Magazine of the Year. Showcases physical magazine print paired with responsive digital iPad edition and "Managing computing activities" research feature.',
-        previewUrl: '/assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
+        previewUrl: './assets/aistudio/c7josnyu0aiyfrb_cd4a47ae.jpeg',
         specs: ['PPA 2016 Finalist: Membership Magazine of the Year', 'Digital Tablet & Print Synergy', 'Institute of Physics and Engineering in Medicine'],
       },
       {
@@ -1503,7 +1503,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'A4 Front Cover • High-Resolution Prepress',
         description:
           'Front cover art direction featuring the official PPA 2016 Finalist badge, showcasing 3D cranial tomography scan visuals on an iPad display, highlighting "Spotlight on best educational practice", "Ten tips for safer software", and "Inside-out innovation in the NHS".',
-        previewUrl: '/assets/aistudio/team-05_1a684662.jpg',
+        previewUrl: './assets/aistudio/team-05_1a684662.jpg',
         specs: ['PPA Finalist Badge Integration', 'NHS Medical Software & Innovation Focus', 'High-Contrast Medical Diagnostics Color Grid'],
       },
       {
@@ -1514,7 +1514,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'A4 Double Page Spread & Front Cover',
         description:
           'December 2017 issue cover paired with high-density double page academic spread ("Survey of prostate brachytherapy practices 2014-16", Belfast City Hospital / Northern Ireland Cancer Centre) and "INBRIEF Radiosensitivity Model".',
-        previewUrl: '/assets/aistudio/drabsdcxuaazuza-1_6f3fa271.jpeg',
+        previewUrl: './assets/aistudio/drabsdcxuaazuza-1_6f3fa271.jpeg',
         specs: ['Survey of Prostate Brachytherapy Practices 2014-16', 'Special Focus Public Engagement', 'High-Density Academic Statistical Tables'],
       },
       {
@@ -1525,7 +1525,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'A4 Double Page Feature Spread & Cover',
         description:
           'March 2018 issue cover ("Workforce growth: Medical physics worldwide") paired with open interior editorial spread covering the ISMRM Annual Meeting in Hawaii (Dr Kevin Ray, University of Oxford) with coastal photography and proportional typography.',
-        previewUrl: '/assets/aistudio/blog-4_e98e1d09.jpg',
+        previewUrl: './assets/aistudio/blog-4_e98e1d09.jpg',
         specs: ['Proton Therapy Service Special Focus', 'ISMRM Annual Meeting Hawaii Special Report', 'Proportional Modular Typographic Grid'],
       },
       {
@@ -1536,7 +1536,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'A4 Magazine Cover • 3D Render Artworking',
         description:
           'September 2018 cover design for the UK national "Year of Engineering" campaign ("Be inspired - make a difference"), art-directing 3D interlocking mechanical gears representing Research, Industry, Training, Biomedical, Rehabilitation, Maintenance, and Physiological sciences.',
-        previewUrl: '/assets/aistudio/photo-7_56c88fea.jpg',
+        previewUrl: './assets/aistudio/photo-7_56c88fea.jpg',
         specs: ['UK Year of Engineering 2018 Campaign', '3D Interlocking Gear Graphic Conceptualization', 'Special Focus: Engineering & Software'],
       },
       {
@@ -1547,7 +1547,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Printed Fan Spread • High-Density Press Run',
         description:
           'Multiple printed copies of the landmark March 2016 edition featuring historical medical physics research into the Hirtz compass X-ray surgical targeting system during World War I, alongside clinical technology calibration reports.',
-        previewUrl: '/assets/aistudio/cdlnu45w8aa-sp8_d97cb09a.jpeg',
+        previewUrl: './assets/aistudio/cdlnu45w8aa-sp8_d97cb09a.jpeg',
         specs: ['WWI Medical Physics History Archive', 'HSST Equivalence & Honours Nominations', '300 DPI Pre-Press Print Run Quality'],
       },
       {
@@ -1558,7 +1558,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Printed Fan Spread • Archival Editorial Layout',
         description:
           'June 2016 edition spread showcasing historical biomedical engineering artifacts, wartime arm prostheses attachments, and spotlight on educational practice in teaching MRI safety.',
-        previewUrl: '/assets/aistudio/ckg98ewweaeqpp-800x400_4ca3b4b0.jpeg',
+        previewUrl: './assets/aistudio/ckg98ewweaeqpp-800x400_4ca3b4b0.jpeg',
         specs: ['Historical Prosthetic Engineering Artefacts', 'MRI Safety Teaching Guidelines', 'Volume 25 Issue 2 Print Edition'],
       },
     ],
@@ -1579,8 +1579,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'High-conversion print advertisements placed in the UK National Press.',
       'Multi-page travel brochures, page layouts, and vector artworking.',
     ],
-    externalUrl: '/portfolio/JCokePortfolio181219.pdf',
-    sampleUrl: '/portfolio/JCokePortfolio181219.pdf',
+    externalUrl: './portfolio/JCokePortfolio181219.pdf',
+    sampleUrl: './portfolio/JCokePortfolio181219.pdf',
     tags: ['Jetline', 'National Press', 'Travel', 'HTML Email', 'Brochures'],
     color: '#0284c7',
     accentColor: '#7dd3fc',
@@ -1588,7 +1588,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Reach', value: 'UK National Press' },
       { label: 'Discipline', value: 'Web & Print Adverts' },
     ],
-    coverImage: '/portfolio/pages/page_20.png',
+    coverImage: './portfolio/pages/page_20.png',
     artworkPieces: [
       {
         id: 'jetline-brochure-20',
@@ -1597,7 +1597,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Travel Booking UI & Cruise Campaigns',
         dimensions: 'Full Portal Layout & Campaign Specials',
         description: 'Multi-brand travel search portal and cruise package display designed for Norwegian Cruise Line, Our Best Holidays, and Jetline.',
-        previewUrl: '/portfolio/pages/page_20.png',
+        previewUrl: './portfolio/pages/page_20.png',
         specs: ['Direct Response Conversion Architecture', 'Travel Search Booking Engine', 'National Cruise Line Promotions'],
       },
       {
@@ -1607,7 +1607,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Luxury Travel Direct Mail & Publication',
         dimensions: 'A4 Landscape Double-Sided Folded Mailer',
         description: 'Prestigious direct-mail brochure for Royal Caribbean\'s Royal Collection, featuring Venice harbor photography, Grand Tour of Italy itineraries, and Royal Mail postal window integration.',
-        previewUrl: '/portfolio/pages/page_22.png',
+        previewUrl: './portfolio/pages/page_22.png',
         specs: ['Royal Caribbean Cruise Line', 'Royal Mail Direct Marketing Format', 'Multi-Itinerary Pricing Grid'],
       },
       {
@@ -1617,7 +1617,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'National Press Print Advertising',
         dimensions: 'Full Page National Press Feature (What\'s on TV Magazine)',
         description: 'Direct-response national press travel advertisements for Orlando Fun & Caribbean Sun and 4 Star Corfu Beach Holiday with dedicated telephony lines.',
-        previewUrl: '/portfolio/pages/page_21.png',
+        previewUrl: './portfolio/pages/page_21.png',
         specs: ['What\'s on TV Magazine Placement', 'Direct Response Telephony Tracking', 'Jetline Cruise & Holidays Integration'],
       },
       {
@@ -1627,7 +1627,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Multi-Brand Web & Print Advertising',
         dimensions: 'Full Page Portal Screen & Cunard Advertising Strip',
         description: 'Reduced to Clear Holidays multi-destination travel portal and Cunard luxury no-fly cruise national advertising series with free Niagara Falls excursion highlights.',
-        previewUrl: '/portfolio/pages/page_19.png',
+        previewUrl: './portfolio/pages/page_19.png',
         specs: ['Cunard Luxury Cruise Promotion', 'Direct Booking Flow', 'Multi-Device Web Portal'],
       },
       {
@@ -1637,7 +1637,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'National Magazine Full-Page Print Campaign',
         dimensions: 'A4 Full Page Magazine Display (2000 x 2278)',
         description: 'High-conversion national press print ad for What\'s on TV: 15 nights Orlando & Caribbean Sun including flights, Disney / Universal rental car, and 7 nights Carnival Splendor Caribbean cruise.',
-        previewUrl: '/assets/extracted_new/jt_holiday_group_jetline/a-portfolio-24-2000x2278.png',
+        previewUrl: './assets/extracted_new/jt_holiday_group_jetline/a-portfolio-24-2000x2278.png',
         specs: ['Full Page Press Specimen', '0800 082 2187 Tracked Inbound Telephony', 'ATOL 6153 & ABTA J1693 Compliance'],
       },
       {
@@ -1647,7 +1647,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'National Magazine Full-Page Print Campaign',
         dimensions: 'A4 Full Page Magazine Display (2000 x 2278)',
         description: 'Direct response national press campaign for Mareblue Beach Resort Corfu: 7 nights all-inclusive stay with flights and airport transfers from £299pp.',
-        previewUrl: '/assets/extracted_new/jt_holiday_group_jetline/a-portfolio-25-2000x2278.png',
+        previewUrl: './assets/extracted_new/jt_holiday_group_jetline/a-portfolio-25-2000x2278.png',
         specs: ['Mareblue Beach Resort Photography', '0800 368 6778 Dedicated Line', 'Jetline Holidays National Campaign'],
       },
       {
@@ -1657,7 +1657,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Digital Web Portal & E-Commerce UI',
         dimensions: 'Desktop Web Portal Layout (2000 x 1215)',
         description: 'Comprehensive travel booking portal user interface featuring dynamic flight/holiday search engine, newsletter capture, and seasonal multi-destination price matrices (Iceland, Disneyland Paris, Lanzarote, Sharm el-Sheikh).',
-        previewUrl: '/assets/extracted_new/jt_holiday_group_jetline/a-portfolio-22-2000x1215.png',
+        previewUrl: './assets/extracted_new/jt_holiday_group_jetline/a-portfolio-22-2000x1215.png',
         specs: ['Travel Search Engine Form Controls', 'Interactive Price Matrix Design', 'Clear Conversion Architecture'],
       },
       {
@@ -1667,7 +1667,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Luxury Direct Mailer & Cruise Advertising Suite',
         dimensions: 'Panoramic Direct Mailer & Ad Strip Suite',
         description: 'Complete promotional direct mailer suite featuring Venice Grand Canal panorama, Royal Caribbean Grand Tour of Italy itineraries, and national cruise advertising strips for Cunard, Norwegian Cruise Line, and Holland America Line.',
-        previewUrl: '/assets/extracted_new/jt_holiday_group_jetline/a-portfolio-20-800x542.png',
+        previewUrl: './assets/extracted_new/jt_holiday_group_jetline/a-portfolio-20-800x542.png',
         specs: ['Royal Mail Direct Postal Integration', 'Venice Grand Canal Architectural Photography', 'Multi-Brand Luxury Cruise Line Partners'],
       },
     ],
@@ -1689,8 +1689,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Embedded regulatory compliance: QR traceability, INCI ingredients, Halal and Vegan trust marks.',
       'Developed warm, botanical earth-toned color hierarchy compliant with accessible display standards.',
     ],
-    externalUrl: '/assets/aistudio/Mysheabutter5_e4736a88.png',
-    sampleUrl: '/assets/aistudio/Mysheabutter5_e4736a88.png',
+    externalUrl: './assets/aistudio/Mysheabutter5_e4736a88.png',
+    sampleUrl: './assets/aistudio/Mysheabutter5_e4736a88.png',
     tags: ['MySheaButter', 'Cosmetics Packaging', 'Organic Brand', '3D Renders', 'E-Commerce'],
     color: '#d97706',
     accentColor: '#fcd34d',
@@ -1700,7 +1700,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Compliance', value: 'Halal & Vegan Certified' },
       { label: 'Discipline', value: '3D & Packaging Design' },
     ],
-    coverImage: '/assets/aistudio/Mysheabutter5_e4736a88.png',
+    coverImage: './assets/aistudio/Mysheabutter5_e4736a88.png',
     artworkPieces: [
       {
         id: 'msb-complete-suite',
@@ -1710,7 +1710,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Full Production Master Sheet • Multi-Variant',
         description:
           'Complete production print sheet for MySheaButter body cream labels across 6 fragrance formulas (Tropical Cool, Sweet Cherry, Tropical Sweetness, Baby Powder, So Natural Pure Organic, and Parisienne Vanilla). Features authentic QR verification, Halal and Vegan compliance seals, 200ml volume indicators, and 3D studio product container renders.',
-        previewUrl: '/assets/aistudio/Mysheabutter5_e4736a88.png',
+        previewUrl: './assets/aistudio/Mysheabutter5_e4736a88.png',
         specs: ['6 Production Fragrance Label Variants', 'Halal, Vegan & QR Verification Seals', 'Studio 3D Jar Renders & Die-Lines'],
       },
       {
@@ -1721,7 +1721,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Studio 3D Product Render • High-Resolution',
         description:
           'High-fidelity 3D studio product render showcasing the dark screw-cap cosmetics jar with gold-foil textured botanical wrap label and Halal certification.',
-        previewUrl: '/assets/aistudio/Mysheabutter2-01_8ead0e58.jpg',
+        previewUrl: './assets/aistudio/Mysheabutter2-01_8ead0e58.jpg',
         specs: ['3D Studio Lighting & Texture Mapping', 'Gold Foil Botanical Label Architecture', 'Retail Shelf Presentation'],
       },
       {
@@ -1732,7 +1732,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Dual-Product Squeezer Packaging Mockup',
         description:
           'Squeezer tube packaging designs for Tropical Cool and So Natural Pure Organic formulas, featuring tactile stitched texture accents and flip-top cap mechanics.',
-        previewUrl: '/assets/aistudio/Mysheabutter2_01de0154.jpg',
+        previewUrl: './assets/aistudio/Mysheabutter2_01de0154.jpg',
         specs: ['Squeezer Tube Ergonomics', 'Two-Tone Botanical Palette', 'Organic Cosmetic Standards'],
       },
       {
@@ -1743,7 +1743,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Dual-Product Squeezer Packaging Mockup',
         description:
           'Squeezer tube packaging designs for Sweet Cherry (crimson header) and Baby Powder (mauve header) skincare formulas.',
-        previewUrl: '/assets/aistudio/Mysheabutter1_102498b5.jpg',
+        previewUrl: './assets/aistudio/Mysheabutter1_102498b5.jpg',
         specs: ['Color-Coded Scent Differentiation', 'Tactile Label Embellishment', 'High-Contrast Typography'],
       },
       {
@@ -1754,7 +1754,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Bottle Packaging 3D Render Mockup',
         description:
           '3D product packaging mockup for the Tropical Sweetness body cream pump/screw lotion bottle, highlighting botanical logo lockup and warm gradient accents.',
-        previewUrl: '/assets/aistudio/Mysheabutter3_baf14acd.jpg',
+        previewUrl: './assets/aistudio/Mysheabutter3_baf14acd.jpg',
         specs: ['Warm Amber & Terracotta Palette', 'Organic Skincare Brand Hierarchy', '3D Container Visualization'],
       },
       {
@@ -1765,7 +1765,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Commercial Studio Still Life • High-Resolution Master',
         description:
           'High-end studio product shoot featuring the 200ml Tropical Sweetness body cream pump dispenser bottle, branded circular jar lid ("My Skins Best Friend" botanical heart emblem), and a sculptural stack of three balanced zen river stones against a clean minimalist studio backdrop.',
-        previewUrl: '/assets/aistudio/MySheaButter11_20d88012.jpg',
+        previewUrl: './assets/aistudio/MySheaButter11_20d88012.jpg',
         specs: ['Natural Zen Balancing Aesthetic', '200ml Pump Bottle & Jar Lid Composition', 'Clean Minimalist Editorial Lighting'],
       },
     ],
@@ -1786,8 +1786,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'High-fashion / lifestyle editorial pacing and image manipulation.',
       'Refined monochrome and luxury minimalist layout architecture.',
     ],
-    externalUrl: '/assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
-    sampleUrl: '/assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
+    externalUrl: './assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
+    sampleUrl: './assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
     tags: ['Madison', 'Fashion Editorial', 'Typography', 'Minimalism', 'Lifestyle'],
     color: '#be185d',
     accentColor: '#f472b6',
@@ -1795,7 +1795,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Discipline', value: 'Fashion Editorial' },
       { label: 'Aesthetic', value: 'Luxury Minimalism' },
     ],
-    coverImage: '/assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
+    coverImage: './assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
     artworkPieces: [
       {
         id: 'madison-portfolio-12',
@@ -1805,7 +1805,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Double Page Editorial Layout • High-Res Master',
         description:
           'Sophisticated editorial pacing and typography scale balancing luxury minimalism with bold visual hierarchy for Madison.',
-        previewUrl: '/assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
+        previewUrl: './assets/aistudio/archive_extracted/Madisson/a-portfolio-12.png',
         specs: ['Harmonic Proportional Layout Scale', 'Luxury Fashion Minimalist Pacing', 'Editorial Retouching Workflow'],
       },
       {
@@ -1816,7 +1816,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Editorial Web Key Visual • High-Resolution',
         description:
           'Editorial digital campaign key visual showcasing typography elegance and fashion marketing presence across modern digital channels.',
-        previewUrl: '/assets/aistudio/archive_extracted/Madisson/blog-13.jpeg',
+        previewUrl: './assets/aistudio/archive_extracted/Madisson/blog-13.jpeg',
         specs: ['Digital Editorial Spread Layout', 'High-Impact Typographic Focal Point', 'Century One Lifestyle Archive'],
       },
       {
@@ -1827,7 +1827,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Brand Square Matrix • 500×500',
         description:
           'Brand emblem and visual identity square for Madison lifestyle communications, highlighting typographic balance.',
-        previewUrl: '/assets/aistudio/archive_extracted/Madisson/thumb-1.jpg',
+        previewUrl: './assets/aistudio/archive_extracted/Madisson/thumb-1.jpg',
         specs: ['Brand Identity Suite', 'Square Grid Asset', 'Minimalist Visual Rhythm'],
       },
     ],
@@ -1847,15 +1847,15 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Calming visual language engineered to reduce healthcare anxiety.',
       'Appointment cards, brochures, clinic signage, and responsive web pages.',
     ],
-    externalUrl: '/portfolio/JCokePortfolio181219.pdf',
-    sampleUrl: '/portfolio/JCokePortfolio181219.pdf',
+    externalUrl: './portfolio/JCokePortfolio181219.pdf',
+    sampleUrl: './portfolio/JCokePortfolio181219.pdf',
     tags: ['Feel Good Clinic', 'Mental Health', 'Wellness', 'Branding'],
     color: '#059669',
     accentColor: '#6ee7b7',
     metrics: [
       { label: 'Sector', value: 'Mental Health & Wellness' },
     ],
-    coverImage: '/assets/aistudio/FEELGOODCLINIC_halfpagev1-3920_6c35b929.png',
+    coverImage: './assets/aistudio/FEELGOODCLINIC_halfpagev1-3920_6c35b929.png',
     artworkPieces: [
       {
         id: 'tfgc-halfpage',
@@ -1864,7 +1864,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Wellness & Clinical Event Promotion',
         dimensions: 'Half Page Editorial Advert • 792×875 Master',
         description: 'Therapeutic and inviting visual hierarchy designed to alleviate medical hesitation and invite consultation.',
-        previewUrl: '/assets/aistudio/FEELGOODCLINIC_halfpagev1-3920_6c35b929.png',
+        previewUrl: './assets/aistudio/FEELGOODCLINIC_halfpagev1-3920_6c35b929.png',
         specs: ['Soothing Therapeutic Color Grading', 'High-Clarity Typography', 'Community Outreach Standard'],
       },
       {
@@ -1874,7 +1874,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Digital Event Marketing & Social Assets',
         dimensions: 'Mobile Digital Flyer • 720×1600 Mobile Display',
         description: 'Responsive mobile graphics engineered for messaging platforms and social community distribution.',
-        previewUrl: '/assets/aistudio/FEELGOODCLINIC_halfpagev1-3920_6c35b929.png',
+        previewUrl: './assets/aistudio/FEELGOODCLINIC_halfpagev1-3920_6c35b929.png',
         specs: ['Mobile Story & Messaging Geometry', 'High-Contrast Message Hierarchy', 'Direct Consultation Booking CTAs'],
       },
     ],
@@ -1894,15 +1894,15 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Bright accessible primary color scheme balanced for readability.',
       'Parent update templates, safety guidelines, and enrollment stationery.',
     ],
-    externalUrl: '/portfolio/JCokePortfolio181219.pdf',
-    sampleUrl: '/portfolio/JCokePortfolio181219.pdf',
+    externalUrl: './portfolio/JCokePortfolio181219.pdf',
+    sampleUrl: './portfolio/JCokePortfolio181219.pdf',
     tags: ['CMD', 'Education', 'Childcare', 'Family Branding'],
     color: '#65a30d',
     accentColor: '#bef264',
     metrics: [
       { label: 'Sector', value: 'Early Years Childcare' },
     ],
-    coverImage: '/portfolio/pages/page_27.png',
+    coverImage: './portfolio/pages/page_27.png',
     artworkPieces: [
       {
         id: 'cmd-signage-01',
@@ -1911,7 +1911,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Early Years Brand Identity & Physical Signage',
         dimensions: 'Outdoor Signage & Visual Identity Suite (Page 27 Master)',
         description: 'Friendly, accessible, and protective brand identity created for CMD Childminder, emphasizing child safety and parent trust.',
-        previewUrl: '/portfolio/pages/page_27.png',
+        previewUrl: './portfolio/pages/page_27.png',
         specs: ['Outdoor Weatherproof Signage Vector Die-Lines', 'Primary Color Harmonization (WCAG AA)', 'Safety and Trust Brand Indicators'],
       },
       {
@@ -1921,7 +1921,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Large Format Outdoor Signage & Folders',
         dimensions: 'Commercial Correx Board & Enrollment Folders',
         description: 'Large format outdoor estate board and enrollment marketing collateral visible from vehicle traffic, promoting registered childcare placements.',
-        previewUrl: '/portfolio/pages/page_27.png',
+        previewUrl: './portfolio/pages/page_27.png',
         specs: ['Large-Format Correx Print Specs', 'Long-Distance Readability Testing', 'Reflective Vinyl Standards'],
       },
     ],
@@ -1943,8 +1943,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Bi-weekly production cycle with rapid-response breaking trade news and regulatory investigative features.',
       'Integrated automotive trade advertising, commercial sponsorship, and TfL policy data tables.',
     ],
-    externalUrl: '/assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
-    sampleUrl: '/assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
+    externalUrl: './assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
+    sampleUrl: './assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
     tags: ['LTDA', 'London Taxi', 'TAXI Magazine', 'Black Cab Trade', 'Satirical Illustration', 'TfL Policy', 'Century One'],
     color: '#ea580c',
     accentColor: '#fbbf24',
@@ -1956,7 +1956,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Association', value: 'LTDA London' },
       { label: 'Discipline', value: 'Editorial Art Direction' },
     ],
-    coverImage: '/assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
+    coverImage: './assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
     artworkPieces: [
       {
         id: 'taxi-uber-pie-cover',
@@ -1966,7 +1966,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Tabloid Publication Cover Fan Presentation',
         description:
           'Front cover art direction and editorial layout for TAXI (1 May 2018, No. 417), the official newspaper of the Licensed Taxi Drivers\' Association (LTDA). Features custom editorial caricature illustration of Uber CEO Dara Khosrowshahi ("Desperate... Dara") smashing through a brick wall bearing an "Uber Pie" sweetener bribe, accompanied by breaking news coverage on Westminster\'s rejection of the Oxford Street pedestrianisation scheme and the official LTDA black cab crest.',
-        previewUrl: '/assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
+        previewUrl: './assets/aistudio/dch7rf8wsaevm06_85c7cf60.jpeg',
         specs: ['Official Newspaper of the LTDA', 'Editorial Political Caricature Art Direction', 'Front Page News Pacing & Typography'],
       },
       {
@@ -1977,7 +1977,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Printed Publication Fan Spread & Digital Van Fleet',
         description:
           'High-impact multimedia trade campaign covering the LTDA\'s landmark "Congestion is Killing London - Keep London Alive" mobile ad-van fleet and printed newspaper distribution across central London. Includes interior investigative spread ("Action Speaks Louder Than Words: Mayor of London Sadiq Khan at last taking notice of the issues facing our great city").',
-        previewUrl: '/assets/aistudio/cwvknjkweaiiqfm-800x400_264d6cd2.jpeg',
+        previewUrl: './assets/aistudio/cwvknjkweaiiqfm-800x400_264d6cd2.jpeg',
         specs: ['Mobile Digital Ad-Van Campaign Fleet', 'Mayor of London Sadiq Khan Policy Response', 'Dual-Issue Print Press Run & Editorial Spread'],
       },
       {
@@ -1988,7 +1988,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Magazine Cover & Double Page Spread Feature',
         description:
           'Investigative editorial cover (9 January 2018, No. 409) featuring satirical Pinocchio photo-manipulation of Uber UK general manager Jo Bertram over false taximeter court testimony, alongside internal investigative spread exposing TfL regulatory claims and court submission evidence.',
-        previewUrl: '/assets/aistudio/blog-5-800x550_a6aa1a39.jpg',
+        previewUrl: './assets/aistudio/blog-5-800x550_a6aa1a39.jpg',
         specs: ['Photo-Manipulation & Retouching Satire', 'TfL Court Testimony Regulatory Probe', 'Bi-Weekly Tabloid Newspaper Circulation'],
       },
     ],
@@ -2015,7 +2015,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     metrics: [
       { label: 'Domain', value: 'Legal Document Security' },
     ],
-    coverImage: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
+    coverImage: './assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
     artworkPieces: [
       {
         id: 'nsfw-leaflet-01',
@@ -2024,7 +2024,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Legal Security Collateral & Client Guidance',
         dimensions: 'A5 Client Information Leaflet • 150 DPI Prepress',
         description: 'High-security client assurance brochure featuring bank vault imagery, confidentiality protocols, and document protection guidance ("To waive retrieval fee please use discount code 125").',
-        previewUrl: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
+        previewUrl: './assets/extracted_new/national_storage_for_wills/NSFW_leaflets_01_p01.png',
         specs: ['Bank-Grade Vault Visual Architecture', 'QR Verification Protocol', 'National Storage for Wills Official Branding'],
       },
       {
@@ -2034,7 +2034,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Legal Security Collateral',
         dimensions: 'A5 Client Information Leaflet',
         description: 'Client informational collateral emphasizing family legacy protection, statutory legal archiving, and document retrieval peace of mind.',
-        previewUrl: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflets_02_p01.png',
+        previewUrl: './assets/extracted_new/national_storage_for_wills/NSFW_leaflets_02_p01.png',
         specs: ['Family Legacy Assurance', 'Probate Archival Security', 'Corporate Trust Layout'],
       },
       {
@@ -2044,7 +2044,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Legal Security Collateral',
         dimensions: 'A5 Client Information Leaflet',
         description: 'Comprehensive overview of secure fireproof storage standards, data encryption protocols, and verified legal executor retrieval workflows.',
-        previewUrl: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflets_03_p01.png',
+        previewUrl: './assets/extracted_new/national_storage_for_wills/NSFW_leaflets_03_p01.png',
         specs: ['Fireproof Storage Standards', 'Executor Access Protocols', 'Legal Compliance'],
       },
       {
@@ -2054,7 +2054,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Legal Security Collateral',
         dimensions: 'A5 Client Information Leaflet',
         description: 'Trust validation collateral highlighting direct client assistance, executor hotlines, and national legal document archiving infrastructure.',
-        previewUrl: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflets_04_p01.png',
+        previewUrl: './assets/extracted_new/national_storage_for_wills/NSFW_leaflets_04_p01.png',
         specs: ['National Archiving Infrastructure', 'Direct Support Hotline Integration', 'Full Legal Identity'],
       },
       {
@@ -2064,7 +2064,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Digital Client Communications',
         dimensions: 'Digital PDF & Mobile-Optimized Display',
         description: 'Screen-optimized digital campaign leaflet designed for email distribution, website onboarding, and digital executor registration.',
-        previewUrl: '/assets/extracted_new/national_storage_for_wills/NSFW_leaflet_digital_01_p01.png',
+        previewUrl: './assets/extracted_new/national_storage_for_wills/NSFW_leaflet_digital_01_p01.png',
         specs: ['Vector Responsive Layout', 'Embedded Digital QR Linkage', 'Client Portal Direct Integration'],
       },
     ],
@@ -2095,8 +2095,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Typography', value: 'OpenDyslexic Accessible' },
       { label: 'Finishes', value: 'Natural Beeswax & Oils' },
     ],
-    coverImage: '/assets/laying_to_rest/images/L2R1.png',
-    videoUrl: '/assets/laying_to_rest/videos/casket-showcase.mp4',
+    coverImage: './assets/laying_to_rest/images/L2R1.png',
+    videoUrl: './assets/laying_to_rest/videos/casket-showcase.mp4',
     artworkPieces: [
       {
         id: 'l2r-casket-suite',
@@ -2106,7 +2106,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Studio Product Photography • 4 Casket Finishes',
         description:
           'Studio presentation of the 4 handcrafted solid wood memorial caskets (Pine, Walnut, Oak, and Cedar), demonstrating natural timber variations, precision dovetail joinery, and soothing organic profiles.',
-        previewUrl: '/assets/laying_to_rest/images/L2R2.png',
+        previewUrl: './assets/laying_to_rest/images/L2R2.png',
         specs: ['FSC-Certified Sustainable Hardwoods', 'Biodegradable Eco-Lining Option', 'Bespoke Inscribed Nameplates'],
       },
       {
@@ -2117,8 +2117,8 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: '4096×2160 Ultra HD Master Video',
         description:
           'Cinematic 3D rotational motion video capturing the handcrafted casket contours, polished beeswax sheen, and architectural joinery.',
-        previewUrl: '/assets/laying_to_rest/videos/casket_showcase_thumb.jpg',
-        videoUrl: '/assets/laying_to_rest/videos/casket-showcase.mp4',
+        previewUrl: './assets/laying_to_rest/videos/casket_showcase_thumb.jpg',
+        videoUrl: './assets/laying_to_rest/videos/casket-showcase.mp4',
         specs: ['4K Ultra HD 4096×2160 Video Stream', '360° Rotational Product Inspection', 'Studio Lighting & Material Render'],
       },
       {
@@ -2129,7 +2129,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'High-Resolution Brand Mark Asset',
         description:
           'Dignified and timeless Tree of Life emblem set with classic serif lettering, representing enduring life, rooted heritage, and compassionate solace.',
-        previewUrl: '/assets/laying_to_rest/logo/WORD-MARK2-dark.png',
+        previewUrl: './assets/laying_to_rest/logo/WORD-MARK2-dark.png',
         specs: ['Gold Foil & Deep Forest Green Palette', 'Organic Roots & Canopy Symbolism', 'Dignified Typographic Layout'],
       },
       {
@@ -2140,7 +2140,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Workshop Photographic Archive',
         description:
           'Behind-the-scenes documentation of the traditional timber joinery, hand-planing, and assembly process in the artisan workshop.',
-        previewUrl: '/assets/laying_to_rest/images/WhatsApp_Image_2025-05-18_at_22.07.08_5-RecoveredX.png',
+        previewUrl: './assets/laying_to_rest/images/WhatsApp_Image_2025-05-18_at_22.07.08_5-RecoveredX.png',
         specs: ['Traditional Mortise & Tenon Joinery', 'Artisan Hand-Turned Detailing', 'Zero Toxic Chemicals or VOCs'],
       },
       {
@@ -2151,7 +2151,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         dimensions: 'Artisan Solid Pine Casket Unit',
         description:
           'Single artisan pine memorial casket showing fine timber grain, warm golden tones, and clean ergonomic closure bevels.',
-        previewUrl: '/assets/laying_to_rest/images/L2R1.png',
+        previewUrl: './assets/laying_to_rest/images/L2R1.png',
         specs: ['Solid Scots Pine Construction', 'Hand-Rubbed Organic Wax Finish', 'Family Keepsake Memorial Standard'],
       },
     ],
@@ -2180,7 +2180,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { label: 'Charity Type', value: 'Registered CIO 1168659' },
       { label: 'Partners', value: 'Brent Council & Wembley Trust' },
     ],
-    coverImage: '/assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
+    coverImage: './assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
     artworkPieces: [
       {
         id: 'sath-term-a4',
@@ -2189,7 +2189,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Community Sports & Wellbeing Timetable',
         dimensions: 'A4 Digital & Print Schedule Poster • Multi-Activity Grid',
         description: 'Complete term-time weekly schedule layout ("CONNECT. GROW. THRIVE.") featuring Active Start for Little Stars, Street Dance, Roundwood Youth Club, SEN Multi-Sports, and Girls Football across Brent community centres.',
-        previewUrl: '/assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
+        previewUrl: './assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A4_p01.png',
         specs: ['Monday-Saturday Community Timetable Architecture', 'Civic Partner Crests (Brent, John Lyon\'s, City Bridge, Wembley)', 'Social Inclusion & Volunteering Board Features'],
       },
       {
@@ -2199,7 +2199,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Civic Community Display Poster',
         dimensions: 'A3 High-Impact Display Poster',
         description: 'Large-format community centre and school display poster promoting free physical activity, creative arts, and youth leadership qualification programs.',
-        previewUrl: '/assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A3_p01.png',
+        previewUrl: './assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A3_p01.png',
         specs: ['A3 Large Format Visual Hierarchy', 'High-Visibility Community Center Display', 'Complete Venue & Address Routing'],
       },
       {
@@ -2209,7 +2209,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
         category: 'Civic Handout & Program Guide',
         dimensions: 'A5 Double-Sided Pocket Guide',
         description: 'Compact handout distributed to families and schools detailing weekly sessions, contact info, and registration pathways.',
-        previewUrl: '/assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A5_p01.png',
+        previewUrl: './assets/extracted_new/sath/SatH Leaflet JAN-APR Digital/SatH_Leaflet__JAN-APR_Digital_A5_p01.png',
         specs: ['A5 Pocket Distribution Format', 'Clear Accessible Typography', 'Direct Family Outreach'],
       },
     ],

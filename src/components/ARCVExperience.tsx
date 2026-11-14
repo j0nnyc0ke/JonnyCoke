@@ -661,7 +661,7 @@ export const ARCVExperience: React.FC<ARCVExperienceProps> = ({
                 {/* Monogram Logo Container */}
                 <div className="w-14 h-16 sm:w-16 sm:h-20 shrink-0 flex items-center justify-center p-1 bg-[#080d1a]/80 rounded-2xl border border-slate-800">
                   <img
-                    src="/image.png?v=3"
+                    src="./image.png?v=3"
                     alt="Jonny Coke Logo"
                     className="w-full h-full object-contain drop-shadow-[0_0_12px_rgba(223,177,91,0.4)]"
                     referrerPolicy="no-referrer"
@@ -862,7 +862,7 @@ export const ARCVExperience: React.FC<ARCVExperienceProps> = ({
 
                   <div className="w-20 h-24 flex items-center justify-center my-auto">
                     <img
-                      src="/image.png?v=3"
+                      src="./image.png?v=3"
                       alt="Jonny Coke Official Monogram Target"
                       className="w-full h-full object-contain"
                     />
@@ -891,7 +891,7 @@ export const ARCVExperience: React.FC<ARCVExperienceProps> = ({
                     )}
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                       <div className="w-4 h-4 rounded-full bg-[#080d1a] border border-[#dfb15b] flex items-center justify-center p-0.5 shadow">
-                        <img src="/image.png?v=3" alt="" className="w-full h-full object-contain" />
+                        <img src="./image.png?v=3" alt="" className="w-full h-full object-contain" />
                       </div>
                     </div>
                   </div>

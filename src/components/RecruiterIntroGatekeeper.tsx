@@ -93,7 +93,7 @@ export const RecruiterIntroGatekeeper: React.FC<RecruiterIntroGatekeeperProps> =
     if (typeof window === 'undefined' || !moonlightEnabled) return;
     try {
       if (!moonlightAudioRef.current) {
-        const audio = new Audio('/audio/moonlight_sonata.mp3');
+        const audio = new Audio('./audio/moonlight_sonata.mp3');
         audio.loop = true;
         audio.playbackRate = 0.88; // slow, mournful, and eerie
         audio.volume = audioMuted ? 0 : vol;
@@ -815,7 +815,7 @@ export const RecruiterIntroGatekeeper: React.FC<RecruiterIntroGatekeeperProps> =
       {/* Background Animated Logo Loop Video (1080p Loop Embedded Behind the Chamber) */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
         <video
-          src="/assets/aistudio/background-loop_61a5c01d.mp4"
+          src="./assets/aistudio/background-loop_61a5c01d.mp4"
           autoPlay
           loop
           muted
@@ -840,7 +840,7 @@ export const RecruiterIntroGatekeeper: React.FC<RecruiterIntroGatekeeperProps> =
             {/* Jigsaw Stylized Graphic Designer Puppet Icon */}
             <div className="relative h-16 w-16 sm:h-20 sm:w-20 rounded-2xl bg-black border-2 border-red-600/70 p-1 flex items-center justify-center shrink-0 overflow-hidden shadow-[0_0_25px_rgba(220,38,38,0.4)]">
               <img
-                src="/image.png?v=3"
+                src="./image.png?v=3"
                 alt="Jonny Coke Logo"
                 className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(220,38,38,0.8)]"
                 referrerPolicy="no-referrer"
@@ -2287,21 +2287,21 @@ export const RecruiterIntroGatekeeper: React.FC<RecruiterIntroGatekeeperProps> =
                     <img
                       src={
                         inspectingArtifact.id === 'msn-racing-campaign'
-                          ? (inspectingArtifact.imageUrl || '/portfolio/MSN-3.png')
+                          ? (inspectingArtifact.imageUrl || './portfolio/MSN-3.png')
                           : inspectingArtifact.id === 'brent-shisha-campaign'
                           ? (shishaPreviewPage === 2
-                              ? '/assets/aistudio/shisha_campaign_p2.png'
+                              ? './assets/aistudio/shisha_campaign_p2.png'
                               : shishaPreviewPage === 3
-                              ? '/assets/aistudio/shisha_campaign_p3.png'
+                              ? './assets/aistudio/shisha_campaign_p3.png'
                               : shishaPreviewPage === 4
-                              ? '/assets/aistudio/IMG_6001_6f94d77f.jpeg'
+                              ? './assets/aistudio/IMG_6001_6f94d77f.jpeg'
                               : shishaPreviewPage === 5
-                              ? '/assets/aistudio/IMG_5999_15e8dad9.jpeg'
+                              ? './assets/aistudio/IMG_5999_15e8dad9.jpeg'
                               : shishaPreviewPage === 6
-                              ? '/assets/aistudio/image_e4980fe9.png'
-                              : '/assets/aistudio/shisha_campaign_cover.png')
+                              ? './assets/aistudio/image_e4980fe9.png'
+                              : './assets/aistudio/shisha_campaign_cover.png')
                           : inspectingArtifact.id === 'geo-mag-cover'
-                          ? '/assets/aistudio/IMG_5996_7f12e8e4.jpeg'
+                          ? './assets/aistudio/IMG_5996_7f12e8e4.jpeg'
                           : inspectingArtifact.imageUrl
                       }
                       alt={inspectingArtifact.title}
@@ -2340,7 +2340,7 @@ export const RecruiterIntroGatekeeper: React.FC<RecruiterIntroGatekeeperProps> =
                           </div>
                         </div>
                         <a
-                          href="/assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf"
+                          href="./assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="px-2.5 py-1.5 rounded-md bg-amber-600/30 hover:bg-amber-600/50 border border-amber-500/40 text-amber-200 text-[10px] font-mono flex items-center gap-1.5 transition"
@@ -2373,7 +2373,7 @@ export const RecruiterIntroGatekeeper: React.FC<RecruiterIntroGatekeeperProps> =
                             <span>Open May 2017 Issue PDF</span>
                           </a>
                           <a
-                            href="/assets/aistudio/IMG_5996_7f12e8e4.jpeg"
+                            href="./assets/aistudio/IMG_5996_7f12e8e4.jpeg"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-2.5 py-1.5 rounded-md bg-cyan-600/30 hover:bg-cyan-600/50 border border-cyan-500/40 text-cyan-200 text-[10px] font-mono flex items-center gap-1.5 transition"

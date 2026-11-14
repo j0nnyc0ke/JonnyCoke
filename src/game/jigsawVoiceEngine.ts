@@ -60,8 +60,8 @@ export class JigsawVoiceEngine {
       if (!ctx) return null;
 
       // Prefer WAV for instant uncompressed PCM decode, fallback to MP3
-      const wavUrl = `/audio/jigsaw/line_${lineIdx}.wav`;
-      const mp3Url = `/audio/jigsaw/line_${lineIdx}.mp3`;
+      const wavUrl = `./audio/jigsaw/line_${lineIdx}.wav`;
+      const mp3Url = `./audio/jigsaw/line_${lineIdx}.mp3`;
 
       try {
         let resp = await fetch(wavUrl);
@@ -252,7 +252,7 @@ export class JigsawVoiceEngine {
 
     // Secondary fallback: HTMLAudioElement with authentic rendered audio
     try {
-      const audioUrl = `/audio/jigsaw/line_${lineIdx}.mp3`;
+      const audioUrl = `./audio/jigsaw/line_${lineIdx}.mp3`;
       const audio = new Audio(audioUrl);
       audio.volume = this.currentVolume;
       audio.playbackRate = Math.max(0.5, Math.min(2.0, speed));

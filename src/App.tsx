@@ -261,7 +261,7 @@ export default function App() {
             {/* Prominent Logo Container - OFFICIAL Jonny Coke Monogram */}
             <div className="h-14 sm:h-16 w-10 sm:w-12 flex items-center justify-center transition group-hover:scale-105 shrink-0">
               <img
-                src="/image.png?v=3"
+                src="./image.png?v=3"
                 alt="Official Jonny Coke Logo"
                 className="w-full h-full object-contain drop-shadow-md"
                 referrerPolicy="no-referrer"
@@ -788,7 +788,7 @@ export default function App() {
             <div className="flex items-center gap-3">
               <div className="h-12 w-9 flex items-center justify-center shrink-0">
                 <img
-                  src="/image.png?v=3"
+                  src="./image.png?v=3"
                   alt="Jonny Coke Logo (C monogram with purple J)"
                   className="w-full h-full object-contain drop-shadow"
                   referrerPolicy="no-referrer"

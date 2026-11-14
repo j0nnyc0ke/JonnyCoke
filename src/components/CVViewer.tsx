@@ -52,7 +52,7 @@ export const CVViewer: React.FC<CVViewerProps> = ({
 
           {/* Official Monogram Logo in Lock Screen */}
           <div className="w-20 h-28 mx-auto mb-4 flex items-center justify-center">
-            <img src="/image.png?v=3" alt="Official Jonny Coke Logo" className="w-full h-full object-contain drop-shadow" />
+            <img src="./image.png?v=3" alt="Official Jonny Coke Logo" className="w-full h-full object-contain drop-shadow" />
           </div>
 
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-mono bg-[#dfb15b]/15 text-[#dfb15b] border border-[#dfb15b]/30 mb-3">

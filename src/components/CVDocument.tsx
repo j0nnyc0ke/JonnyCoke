@@ -138,7 +138,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({
             {/* Prominent Monogram Logo */}
             <div className="w-20 h-28 sm:w-24 sm:h-32 shrink-0 flex items-center justify-center">
               <img
-                src="/image.png?v=3"
+                src="./image.png?v=3"
                 alt="Jonny Coke Logo"
                 className="w-full h-full object-contain"
                 referrerPolicy="no-referrer"
@@ -227,7 +227,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({
                   {/* Subtle centered brand dot in QR */}
                   <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div className="w-5 h-5 rounded-full bg-[#080d1a] border border-[#dfb15b] flex items-center justify-center p-0.5 shadow">
-                      <img src="/image.png?v=3" alt="" className="w-full h-full object-contain" />
+                      <img src="./image.png?v=3" alt="" className="w-full h-full object-contain" />
                     </div>
                   </div>
                 </div>
@@ -280,7 +280,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({
 
           <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto">
             <a
-              href="/portfolio/JCokePortfolio181219.pdf"
+              href="./portfolio/JCokePortfolio181219.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 sm:flex-none px-3.5 py-2 rounded-xl bg-[#080d1a] hover:bg-slate-800 text-white text-xs font-semibold border border-slate-700 flex items-center justify-center gap-1.5 transition"
@@ -526,7 +526,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({
                 <button
                   onClick={() =>
                     setEmbeddedPreview({
-                      url: '/assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
+                      url: './assets/aistudio/7904_Shisha_Leaflet_A5_v12_0497d3ed.pdf',
                       title: 'Brent Council "Shisha: The Facts" Public Health A5 Leaflet',
                     })
                   }
@@ -561,7 +561,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({
                 <button
                   onClick={() =>
                     setEmbeddedPreview({
-                      url: '/portfolio/MSN-3.png',
+                      url: './portfolio/MSN-3.png',
                       title: 'Motorsport Network (Autosport / F1) Marketing Deliverables',
                     })
                   }
@@ -617,7 +617,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({
                 <button
                   onClick={() =>
                     setEmbeddedPreview({
-                      url: '/portfolio/dt_magazine_cover.png',
+                      url: './portfolio/dt_magazine_cover.png',
                       title: 'Dietetics Today AR Project Cover Archive',
                     })
                   }

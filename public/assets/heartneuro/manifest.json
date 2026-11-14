@@ -1,0 +1,153 @@
+{
+  "id": "/",
+  "name": "HeartNeuro: Sensory Dating",
+  "short_name": "HeartNeuro",
+  "description": "Sensory-friendly dating and unmasked connections for Autistic, ADHD, and neurodivergent singles. Featuring bidirectional compatibility matching, quiet partner venues, and low-anxiety date tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0A0C10",
+  "theme_color": "#0A0C10",
+  "categories": [
+    "lifestyle",
+    "social",
+    "health",
+    "utilities"
+  ],
+  "lang": "en-GB",
+  "dir": "ltr",
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-discover.jpg",
+      "sizes": "768x1376",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "HeartNeuro Discover — Low-Pressure Neurodivergent Dating Profile Card"
+    },
+    {
+      "src": "/screenshot-safety.jpg",
+      "sizes": "768x1376",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "HeartNeuro Safety Center — Live GPS Beacon & NHS Regional Support"
+    },
+    {
+      "src": "/screenshot-venues.jpg",
+      "sizes": "768x1376",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "HeartNeuro Quiet Venues — Sensory Certified Low-Noise Date Spots"
+    },
+    {
+      "src": "/screenshot-chat.jpg",
+      "sizes": "768x1376",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "HeartNeuro Safe Chat — Sensory Pacing & Communication Badges"
+    },
+    {
+      "src": "/screenshot-wide.jpg",
+      "sizes": "1376x768",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "HeartNeuro Desktop & Tablet Experience — Sensory Dating Platform"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Discover Matches",
+      "short_name": "Discover",
+      "description": "Explore neurodivergent singles aligned with your sensory profile",
+      "url": "/?tab=discover",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Date Planner & Venues",
+      "short_name": "Venues",
+      "description": "Certified quiet date venues with low-sensory accommodations",
+      "url": "/?tab=venues",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Safety Beacon",
+      "short_name": "Safety",
+      "description": "Live GPS & Regional NHS Crisis Hub check-ins",
+      "url": "/?tab=safety",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}

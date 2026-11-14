@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laying to Rest Handcrafted Caskets | Sustainable Memorials</title>
+  
+  <!-- Favicon Implementation -->
+  <link rel="icon" href="favicon/apple-touch-icon.png" type="image/svg+xml">
+  <link rel="icon" href="favicon/apple-touch-icon.png" type="image/png">
+  <!-- End of Favicon Implementation -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/css/open-dyslexic.css">
+  <link href="https://fonts.cdnfonts.com/css/arial-rounded-mt" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    :root {
+      --zucchini: #18472B;
+      --fun-green: #1D613D;
+      --cremini: #CCA03B;
+      --antique-pink: #C17C72;
+      --warm-canvas: #F3EFE7;
+      --forest-dark: #14261D;
+      --radius: 8px;
+      --body-font: 'Arial Rounded MT', sans-serif;
+      --heading-font: 'OpenDyslexic', sans-serif;
+      --transition: all 0.3s ease;
+      --line-height: 1.6;
+    }
+
+    [data-theme="dyslexia"] {
+      --body-font: 'Arial Rounded MT', sans-serif;
+      --heading-font: 'OpenDyslexic', sans-serif;
+    }
+
+    [data-theme="dark"] {
+      --warm-canvas: #1A1A1A;
+      --forest-dark: #E8F5E9;
+      --zucchini: #2E7D32;
+      --fun-green: #388E3C;
+    }
+
+    body {
+      font-family: var(--body-font);
+      background-color: var(--warm-canvas);
+      color: var(--forest-dark);
+      margin: 0;
+      line-height: var(--line-height);
+      overflow-x: hidden;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    h1, h2, h3, h4 {
+      font-family: var(--heading-font);
+      font-weight: bold;
+      letter-spacing: -0.05em;
+    }
+
+    header {
+      background-color: var(--warm-canvas);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .theme-controls {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .theme-btn {
+      background: none;
+      border: 2px solid var(--forest-dark);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .theme-btn:hover {
+      transform: scale(1.1);
+    }
+
+    .theme-btn[data-theme="dyslexia"] {
+      background: linear-gradient(45deg, #18472B 50%, #F3EFE7 50%);
+    }
+
+    .theme-btn[data-theme="dark"] {
+      background: #1A1A1A;
+      border-color: #E8F5E9;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-text {
+      font-family: var(--heading-font);
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--forest-dark);
+    }
+    .logo-text img.logo-dark {
+      display: none;
+    }
+
+    [data-theme="dark"] .logo-text img.logo-main {
+      display: none;
+    }
+
+    [data-theme="dark"] .logo-text img.logo-dark {
+      display: block;
+    }
+
+    .hamburger {
+      display: none;
+      cursor: pointer;
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--forest-dark);
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      color: var(--fun-green);
+    }
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background-color: var(--warm-canvas);
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      z-index: 999;
+    }
+
+    .mobile-menu.active {
+      display: block;
+    }
+
+    .mobile-menu a {
+      display: block;
+      padding: 1rem 0;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .hero {
+      background: linear-gradient(165deg, var(--fun-green) 0%, var(--zucchini) 100%);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* VIDEO CONTAINER STYLES */
+    .video-container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      position: relative;
+      height: 500px;
+    }
+
+    #casket-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .video-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .video-controls {
+      position: absolute;
+      bottom: 70px;
+      right: 15px;
+      display: flex;
+      gap: 10px;
+      z-index: 10;
+    }
+
+    .video-btn {
+      background: rgba(0,0,0,0.5);
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .video-btn:hover {
+      background: rgba(0,0,0,0.8);
+      transform: scale(1.1);
+    }
+
+    .video-fallback {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(165deg, var(--fun-green) 0%, var(--zucchini) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      z-index: 5;
+    }
+
+    .video-fallback h3 {
+      margin-top: 0;
+    }
+
+    .video-fallback a {
+      color: var(--cremini);
+      text-decoration: none;
+      margin-top: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .video-fallback a:hover {
+      text-decoration: underline;
+    }
+
+    /* END VIDEO STYLES */
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-left: 1rem;
+      border-left: 4px solid var(--cremini);
+    }
+
+    .card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .gallery {
+      margin: 4rem 0;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      aspect-ratio: 1/1;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .mission {
+      background: var(--fun-green);
+      color: white;
+      padding: 3rem;
+      border-radius: var(--radius);
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    .mission p {
+      font-size: 1.5rem;
+      font-style: italic;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .principles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .principle {
+      background: white;
+      border-radius: var(--radius);
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .principle h3 {
+      color: var(--fun-green);
+      margin-top: 0;
+    }
+
+    .materials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .material {
+      background: white;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .material img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .material-info {
+      padding: 1.5rem;
+    }
+
+    .contact-form {
+      margin-top: 2rem;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+      font-family: var(--body-font);
+      background: var(--warm-canvas);
+      color: var(--forest-dark);
+      transition: border-color 0.3s;
+    }
+
+    [data-theme="dark"] .contact-form input,
+    [data-theme="dark"] .contact-form textarea {
+      background: #2a2a2a;
+      border-color: #444;
+      color: #E8F5E9;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: var(--cremini);
+      outline: none;
+    }
+
+    .contact-form button {
+      background: var(--fun-green);
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-family: var(--heading-font);
+      font-weight: bold;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+      display: block;
+      width: 100%;
+    }
+
+    .contact-form button:hover {
+      background: var(--zucchini);
+    }
+
+    .testimonials {
+      background: white;
+      padding: 2rem;
+      border-left: 4px solid var(--cremini);
+      border-radius: var(--radius);
+      margin: 2rem 0;
+      position: relative;
+    }
+
+    .testimonials::before {
+      content: '"';
+      font-size: 4rem;
+      color: var(--cremini);
+      position: absolute;
+      top: -1rem;
+      left: 1rem;
+      opacity: 0.2;
+    }
+
+    .testimonial-author {
+      font-weight: bold;
+      margin-top: 1rem;
+      color: var(--zucchini);
+    }
+
+	.specifications-table-container {
+      overflow-x: auto;
+      margin-top: 1.5rem;
+    }
+  
+    .specifications-table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #ddd;
+    }
+  
+    .specifications-table th,
+    .specifications-table td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+  
+    .specifications-table th {
+      background-color: var(--fun-green);
+      color: white;
+      font-weight: bold;
+    }
+  
+    .specifications-table tr:nth-child(even) {
+      background-color: #f8f8f8;
+    }
+  
+    .specifications-table tr:hover {
+      background-color: #f1f1f1;
+    }
+  
+    [data-theme="dark"] .specifications-table th {
+      background-color: var(--zucchini);
+    }
+  
+    [data-theme="dark"] .specifications-table tr:nth-child(even) {
+      background-color: #333;
+    }
+  
+    [data-theme="dark"] .specifications-table tr:hover {
+      background-color: #444;
+    }
+
+    /* FOOTER STYLES */
+    footer {
+      background: var(--forest-dark);
+      color: var(--warm-canvas);
+      padding: 3rem 0 0;
+    }
+
+    [data-theme="dark"] footer {
+      background: #0A1A12;
+      color: #F3EFE7;
+    }
+
+    [data-theme="dyslexia"] footer {
+      background: var(--forest-dark);
+      color: var(--warm-canvas);
+    }
+
+    .footer-links a {
+      color: var(--warm-canvas);
+      opacity: 0.9;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--cremini);
+      opacity: 1;
+    }
+
+    [data-theme="dark"] .footer-links a {
+      color: #E8F5E9;
+    }
+
+    [data-theme="dyslexia"] .footer-links a {
+      color: #FCF5EB;
+    }
+
+    .footer-content {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      text-align: left;
+      padding: 0 2rem 3rem;
+    }
+
+    .footer-column h3 {
+      color: var(--cremini);
+      margin-top: 0;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.5rem;
+    }
+
+    .copyright {
+      padding: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      text-align: center;
+    }
+
+    [data-theme="dark"] .card,
+    [data-theme="dark"] .principle,
+    [data-theme="dark"] .material,
+    [data-theme="dark"] .testimonials {
+      background: #2D2D2D;
+      color: #E8F5E9;
+    }
+
+    /* Form message styles */
+    .form-message {
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: var(--radius);
+      font-weight: bold;
+      display: none;
+      white-space: pre-line;
+    }
+    
+    .form-message.success {
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+    
+    .form-message.error {
+      background-color: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+    
+    .form-note {
+      margin-top: 15px;
+      font-style: italic;
+      color: #666;
+    }
+    
+    [data-theme="dark"] .form-note {
+      color: #aaa;
+    }
+    
+    .troubleshooting {
+      background: #fff9e6;
+      border-left: 4px solid var(--cremini);
+      padding: 1.5rem;
+      margin: 2rem 0;
+      border-radius: var(--radius);
+    }
+    
+    [data-theme="dark"] .troubleshooting {
+      background: #2a2a1e;
+    }
+    
+    .troubleshooting h3 {
+      margin-top: 0;
+      color: var(--cremini);
+    }
+    
+    .troubleshooting ul {
+      padding-left: 1.5rem;
+    }
+    
+    .troubleshooting li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .fallback-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    
+    .fallback-contact a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--fun-green);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .fallback-contact a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Video troubleshooting section */
+    .video-troubleshooting {
+      background-color: rgba(255, 249, 230, 0.5);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+      border-left: 4px solid var(--cremini);
+    }
+    
+    .video-troubleshooting h4 {
+      margin-top: 0;
+      color: var(--zucchini);
+    }
+    
+    .video-troubleshooting ul {
+      padding-left: 1.5rem;
+    }
+    
+    .video-troubleshooting li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 1rem;
+      }
+
+      .hamburger {
+        display: block;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .theme-controls {
+        position: absolute;
+        top: 1rem;
+        right: 4.5rem;
+      }
+
+      .hero {
+        padding: 3rem 1rem;
+      }
+
+      .section {
+        padding: 2rem 1rem;
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
+      
+      .video-container {
+        height: 300px;
+      }
+      
+      .video-overlay {
+        padding: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .gallery-item,
+      .gallery-item img {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+      <div class="logo-text"><a href="https://layingtorest.co.uk/"><img src="Logo/WORD-MARK2-light.png" class="logo-main" alt="Laying to Rest Handcrafted Caskets" width="356" height="90.8441"></a> <a href="https://layingtorest.co.uk/"><img src="Logo/WORD-MARK2-dark.png" class="logo-dark" alt="Laying to Rest Handcrafted Caskets" width="356" height="90.8441"></a></div>
+    </div>
+    <div class="theme-controls">
+      <button class="theme-btn" data-theme="dyslexia" aria-label="Toggle Dyslexia Friendly Mode"></button>
+      <button class="theme-btn" data-theme="dark" aria-label="Toggle Dark Mode"></button>
+    </div>
+    <nav> <a href="#about">Our Story</a> <a href="#gallery">Our Work</a> <a href="#principles">Principles</a> <a href="#materials">Materials</a> <a href="#testimonials">Testimonials</a> <a href="#contact">Contact</a></nav>
+    <div class="hamburger" id="hamburger"> <i class="fas fa-bars"></i></div>
+</header>
+  <!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">Our Story</a>
+  <a href="#gallery">Our Work</a>
+  <a href="#principles">Principles</a>
+  <a href="#materials">Materials</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Handcrafted Caskets for a Gentle Farewell</h1>
+    <p>Each bespoke casket is a testament to a life well-lived, offering a serene and beautiful farewell that reflects their unique spirit.</p>
+  </section>
+
+  <!-- Video Showcase - FIXED IMPLEMENTATION -->
+  <div class="video-container">
+    <video 
+      id="casket-video"
+      width="100%" 
+      height="100%" 
+      autoplay 
+      muted 
+      loop 
+      playsinline
+      poster="images/PHOTO-2025-01-08-17-48-18-5-Recovered.png"
+    >
+      <source src="videos/casket-showcase.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <!-- Fallback content if video doesn't load -->
+    <div class="video-fallback" id="video-fallback">
+      <h3>Artisan Craftsmanship Video</h3>
+      <p>We're having trouble loading the video preview. You can view it directly:</p>
+      <a href="/videos/casket-showcase.mp4" target="_blank">
+        <i class="fas fa-external-link-alt"></i> Open Video in New Tab
+      </a>
+    </div>
+    
+    <div class="video-overlay">
+      <h3>Artisan Craftsmanship</h3>
+      <p>Celebrating natural imperfections where tool marks and wood grain tell the story</p>
+    </div>
+    
+    <div class="video-controls">
+      <button class="video-btn" id="play-pause-btn" aria-label="Play/Pause">
+        <i class="fas fa-pause"></i>
+      </button>
+      <button class="video-btn" id="mute-btn" aria-label="Mute/Unmute">
+        <i class="fas fa-volume-up"></i>
+      </button>
+    </div>
+  </div>
+  
+  <!-- Mission Statement -->
+  <section class="mission">
+    <p>"We craft caskets that return to the earth, first as vessels for remembrance, then as wildflowers for renewal."</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <h2>Our Story</h2>
+    <div class="card">
+      <p>&quot;Laying to Rest&quot; was born from a profound respect for nature's cycles and the human stories woven through them. Our founder, a master woodworker, created the first &quot;Laying to Rest&quot; casket for a loved one, discovering how the act of crafting with care could transform grief into something beautiful.</p>
+      <p>Today, each &quot;Laying to Rest&quot; casket continues this tradition of thoughtful craftsmanship, blending sustainable practices with deeply personal tributes. We honor every life story through materials that will nurture new growth, creating a legacy that extends beyond remembrance.</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section" id="gallery">
+    <h2>Our Craftsmanship</h2>
+    <div class="gallery">
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="/images/PHOTO-2025-01-08-17-48-18-5-Recovered.png" alt="Handcrafted casket">
+        </div>
+        <div class="gallery-item">
+          <img src="/images/q.png" alt="Woodworking details">
+        </div>
+        <div class="gallery-item">
+          <img src="/images/WhatsApp Image 2025-05-18 at 22.07.08 (1)b.jpg" alt="Natural wood finish">
+        </div>
+        <div class="gallery-item">
+          <img src="/images/WhatsApp Image 2025-05-18 at 22.07.08 (7).jpeg" alt="Sustainable materials">
+        </div>
+        <div class="gallery-item">
+          <img src="/Images/WhatsApp Image 2025-05-18 at 22.07.08 (5)-RecoveredX.png" alt="Artisan at work">
+        </div>
+        <div class="gallery-item">
+          <img src="/images/WhatsApp Image 2025-05-18 at 22.07.08 (2).jpeg" alt="Finished product">
+        </div>
+        <div class="gallery-item">
+          <img src="/images/L2R1.jpeg" alt="Finished product">
+        </div>
+        <div class="gallery-item">
+          <img src="/Images/L2R2.png" alt="Finished product">
+        </div>
+        <div class="gallery-item">
+          <img src="/images/ChatGPT Image Dec 17, 2025, 04_06_29 AM.jpeg" alt="Finished product">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Principles -->
+  <section class="section" id="principles">
+    <h2>Our Principles</h2>
+    <div class="principles">
+      <div class="principle">
+        <h3>Zero Waste Philosophy</h3>
+        <p>We use exclusively biodegradable materials including FSC-certified wood, beeswax finishes, and plantable paper that transforms into wildflowers. Our packaging and shipping materials are fully compostable.</p>
+      </div>
+      <div class="principle">
+        <h3>Artisan Integrity</h3>
+        <p>Each piece celebrates natural imperfections - the tool marks and wood grain variations that tell the story of human hands shaping natural materials. We reject mass production in favor of meaningful craftsmanship.</p>
+      </div>
+      <div class="principle">
+        <h3>Nature as Muse</h3>
+        <p>Our designs emerge from careful observation of forests, soil layers, and organic growth patterns. Colour palettes are drawn from mushrooms, bark, and earth tones that change gracefully over time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials Section -->
+  <section class="section" id="materials">
+    <h2>Our Materials</h2>
+    <div class="materials">
+      <div class="material">
+        <img src="https://thumbs.dreamstime.com/b/rich-wood-grain-texture-detailed-image-showcases-intricate-grain-aged-wood-its-rich-tones-textures-highlighted-373884426.jpg" alt="FSC-certified wood">
+        <div class="material-info">
+          <h3>FSC-Certified Wood</h3>
+          <p>Sourced from responsibly managed forests, each piece selected for its unique grain and character. Finished with natural beeswax and plant-based oils.</p>
+        </div>
+      </div>
+      <div class="material">
+        <img src="https://images.squarespace-cdn.com/content/v1/642680f0238e551f47cc3213/fceafa0f-d862-4282-ba2a-9f79c4609f5e/Seed+paper.jpeg" alt="Plantable paper">
+        <div class="material-info">
+          <h3>Plantable Seed Paper</h3>
+          <p>Paper embedded with wildflower seeds that can be planted after use, creating living memorials that bloom with remembrance.</p>
+        </div>
+      </div>
+      <div class="material">
+        <img src="https://t3.ftcdn.net/jpg/14/37/79/20/360_F_1437792019_d2QWOWA9eQNPRZ2i2NI3Qqk0VgYcPSGK.jpg" alt="Natural fibers">
+        <div class="material-info">
+          <h3>Natural Fiber Linings</h3>
+          <p>Soft linings of organic cotton, hemp, or wool create a gentle resting place. All dyes are derived from plants and minerals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <h2>Families We've Served</h2>
+    <div class="testimonials">
+      <p>When we lost my father, we wanted something that reflected his love of nature. The &quot;Laying to Rest&quot; casket was perfect - simple, beautiful, and knowing it would return to the earth brought us great comfort. Six months later, the wildflowers from the seed paper bloomed on his grave. It felt like a continuation of his spirit.</p>
+      <div class="testimonial-author">— The Henderson Family</div>
+    </div>
+    <div class="testimonials">
+      <p>The care and attention to detail in my mother's casket was evident in every aspect. The wood grain was stunning, and knowing it was crafted sustainably aligned with her values. The entire experience with &quot;Laying to Rest&quot; was dignified and personal during our most difficult time.</p>
+      <div class="testimonial-author">— Sarah M.</div>
+    </div>
+  </section>
+	
+  <!-- Specifications -->
+<section class="section" id="specifications">
+  <h2>Casket Specifications</h2>
+  <div class="card">
+    <p>All our caskets are handcrafted from sustainable willow unless otherwise specified.</p>
+    
+    <div class="specifications-table-container">
+      <table class="specifications-table">
+        <thead>
+          <tr>
+            <th rowspan="2">Casket Size</th>
+            <th colspan="3">Internal Dimensions (inches)</th>
+            <th colspan="3">Internal Dimensions (mm)</th>
+          </tr>
+          <tr>
+            <th>Length</th>
+            <th>Width</th>
+            <th>Depth</th>
+            <th>Length</th>
+            <th>Width</th>
+            <th>Depth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>57"</td>
+            <td>67"</td>
+            <td>20"</td>
+            <td>12"</td>
+            <td>1702 mm</td>
+            <td>508 mm</td>
+            <td>305 mm</td>
+          </tr>
+          <tr>
+            <td>60"</td>
+            <td>72"</td>
+            <td>20"</td>
+            <td>13"</td>
+            <td>1829 mm</td>
+            <td>508 mm</td>
+            <td>330 mm</td>
+          </tr>
+          <tr>
+            <td>62"</td>
+            <td>74"</td>
+            <td>23"</td>
+            <td>13"</td>
+            <td>1880 mm</td>
+            <td>584 mm</td>
+            <td>330 mm</td>
+          </tr>
+          <tr>
+            <td>64"</td>
+            <td>76"</td>
+            <td>24"</td>
+            <td>13"</td>
+            <td>1930 mm</td>
+            <td>610 mm</td>
+            <td>330 mm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+  <section class="section" id="contact"><br>
+    <h2>Begin the Conversation</h2>
+    
+    <!-- Form message container -->
+    <div id="form-message" class="form-message"></div>
+    
+    <form id="contact-form" class="contact-form">
+      <input type="hidden" name="subject" value="Contact Form Submission">
+      
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <!-- Anti-spam honeypot -->
+      <div style="position: absolute; left: -5000px;">
+        <input type="text" name="honeypot" tabindex="-1">
+      </div>
+      
+      <button type="submit">Send Message</button>
+    </form>
+      
+      <div class="fallback-contact">
+        <a href="mailto:info@layingtorest.co.uk">
+          <i class="fas fa-envelope"></i>
+          info@layingtorest.co.uk
+        </a>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>Laying to Rest<br>Handcrafted Caskets</h3>
+        <p>Each bespoke casket is a testament to a life well-lived, offering a serene and beautiful farewell that reflects their unique spirit.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#gallery">Our Work</a></li>
+          <li><a href="#principles">Our Principles</a></li>
+          <li><a href="#materials">Materials</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <ul class="footer-links">
+          <li><a href="mailto:info@layingtorest.co.uk">info@layingtorest.co.uk</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 Laying to Rest - Handcrafted Caskets. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle
+    const themeButtons = document.querySelectorAll('.theme-btn');
+    themeButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const theme = btn.getAttribute('data-theme');
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('site-theme', theme);
+      });
+    });
+
+    // Apply saved theme
+    const savedTheme = localStorage.getItem('site-theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    }
+
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+        mobileMenu.classList.remove('active');
+      });
+    });
+
+    // Form submission handling
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const messageDiv = document.getElementById('form-message');
+      
+      // Clear and hide message
+      messageDiv.textContent = '';
+      messageDiv.style.display = 'none';
+      messageDiv.className = 'form-message';
+
+      fetch('send-email.php', {
+        method: 'POST',
+        body: new FormData(form)
+      })
+      .then(response => {
+        if (response.ok) {
+          return response.text();
+        }
+        return response.text().then(text => {
+          throw new Error(text || 'Server error');
+        });
+      })
+      .then(text => {
+        messageDiv.textContent = text;
+        messageDiv.style.display = 'block';
+        messageDiv.classList.add('success');
+        
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+          messageDiv.style.display = 'none';
+        }, 5000);
+        
+        // Reset form
+        form.reset();
+      })
+      .catch(error => {
+        messageDiv.textContent = error.message || 'There was a problem sending your message. Please try again.';
+        messageDiv.style.display = 'block';
+        messageDiv.classList.add('error');
+      });
+    });
+
+    // VIDEO CONTROLS - FIXED IMPLEMENTATION
+    const video = document.getElementById('casket-video');
+    const playPauseBtn = document.getElementById('play-pause-btn');
+    const muteBtn = document.getElementById('mute-btn');
+    const videoFallback = document.getElementById('video-fallback');
+    
+    // Initially hide the fallback
+    videoFallback.style.display = 'none';
+    
+    // Check if video is working after a delay
+    setTimeout(() => {
+      if (video.readyState === 0) { // 0 = HAVE_NOTHING
+        console.log('Video failed to load, showing fallback');
+        videoFallback.style.display = 'flex';
+      }
+    }, 3000);
+    
+    // Play/Pause toggle
+    playPauseBtn.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+        playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+      } else {
+        video.pause();
+        playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+      }
+    });
+    
+    // Mute toggle
+    muteBtn.addEventListener('click', () => {
+      if (video.muted) {
+        video.muted = false;
+        muteBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
+      } else {
+        video.muted = true;
+        muteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+      }
+    });
+    
+    // Ensure video plays when page loads
+    video.play().catch(error => {
+      console.log('Autoplay prevented:', error);
+      playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+      videoFallback.style.display = 'flex';
+    });
+    
+    // Handle video errors
+    video.addEventListener('error', () => {
+      console.error('Video loading error');
+      videoFallback.style.display = 'flex';
+    });
+    
+    // Update button when video ends (though loop should prevent this)
+    video.addEventListener('ended', () => {
+      playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+    });
+  </script>
+</body>
+</html>

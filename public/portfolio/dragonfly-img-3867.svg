@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="stanleyYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE000"/>
+      <stop offset="100%" stop-color="#E5C700"/>
+    </linearGradient>
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+
+  <!-- Pre-press marks -->
+  <g opacity="0.4" font-family="'JetBrains Mono', monospace" font-size="10" fill="#888">
+    <circle cx="50" cy="40" r="14" fill="none" stroke="#fff" stroke-width="1"/>
+    <line x1="30" y1="40" x2="70" y2="40" stroke="#fff" stroke-width="1"/>
+    <line x1="50" y1="20" x2="50" y2="60" stroke="#fff" stroke-width="1"/>
+    <text x="80" y="44">DRAGONFLY VENTURES • PACKAGING DIE-LINE ARCHITECTURE • 300 DPI</text>
+    <text x="960" y="44" fill="#aaa">SCALE 1:1 • DIE-CUT CODE: DV-STN-PKG-02</text>
+  </g>
+
+  <!-- Left Side: Hanging Tag System -->
+  <g transform="translate(100, 100)" filter="url(#boxShadow)">
+    <!-- Eyelet Hole & Cord -->
+    <path d="M 175,0 L 175,40" stroke="#888" stroke-width="3" stroke-dasharray="4,2"/>
+    <circle cx="175" cy="40" r="12" fill="#333" stroke="#888" stroke-width="2"/>
+    <circle cx="175" cy="40" r="6" fill="#111"/>
+
+    <!-- Hangtag Main Body -->
+    <rect x="0" y="50" width="350" height="580" rx="16" fill="#0d0d11" stroke="#FFE000" stroke-width="3"/>
+    
+    <!-- Hangtag Header Bar -->
+    <rect x="0" y="50" width="350" height="110" rx="16" fill="url(#stanleyYellow)"/>
+    <rect x="0" y="145" width="350" height="15" fill="#FFE000"/>
+    
+    <text x="175" y="115" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="38" fill="#000" text-anchor="middle" letter-spacing="3">STANLEY</text>
+    <text x="175" y="140" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="11" fill="#222" text-anchor="middle" letter-spacing="2">ENGINEERED WORKWEAR</text>
+
+    <!-- Product Details -->
+    <g transform="translate(25, 185)">
+      <text x="0" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18" fill="#fff">FATMAX® PRO FLEECE</text>
+      <text x="0" y="45" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFE000">MODEL NO. STN-7740 • XL (44"-46")</text>
+
+      <line x1="0" y1="65" x2="300" y2="65" stroke="#333" stroke-width="1"/>
+
+      <!-- Feature Bullet Grid -->
+      <g transform="translate(0, 85)" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#ccc">
+        <circle cx="6" cy="4" r="3" fill="#FFE000"/>
+        <text x="18" y="8" font-weight="600">300 GSM Heavyweight Thermal Fleece</text>
+
+        <circle cx="6" cy="30" r="3" fill="#FFE000"/>
+        <text x="18" y="34" font-weight="600">Reinforced CORDURA® Elbow Panels</text>
+
+        <circle cx="6" cy="56" r="3" fill="#FFE000"/>
+        <text x="18" y="60" font-weight="600">YKK® Military Heavy-Gauge Zippers</text>
+
+        <circle cx="6" cy="82" r="3" fill="#FFE000"/>
+        <text x="18" y="86" font-weight="600">3M Scotchlite™ Reflective Accents</text>
+      </g>
+
+      <line x1="0" y1="200" x2="300" y2="200" stroke="#333" stroke-width="1"/>
+
+      <!-- Barcode & Compliance Area -->
+      <g transform="translate(20, 220)">
+        <!-- Barcode lines -->
+        <rect x="0" y="0" width="260" height="75" fill="#fff" rx="4"/>
+        <g transform="translate(15, 10)" fill="#000">
+          <rect x="0" y="0" width="3" height="40"/>
+          <rect x="6" y="0" width="2" height="40"/>
+          <rect x="11" y="0" width="5" height="40"/>
+          <rect x="20" y="0" width="2" height="40"/>
+          <rect x="26" y="0" width="4" height="40"/>
+          <rect x="35" y="0" width="1" height="40"/>
+          <rect x="40" y="0" width="3" height="40"/>
+          <rect x="47" y="0" width="6" height="40"/>
+          <rect x="58" y="0" width="2" height="40"/>
+          <rect x="65" y="0" width="5" height="40"/>
+          <rect x="75" y="0" width="3" height="40"/>
+          <rect x="83" y="0" width="2" height="40"/>
+          <rect x="90" y="0" width="6" height="40"/>
+          <rect x="100" y="0" width="2" height="40"/>
+          <rect x="108" y="0" width="4" height="40"/>
+          <rect x="117" y="0" width="3" height="40"/>
+          <rect x="125" y="0" width="5" height="40"/>
+          <rect x="135" y="0" width="2" height="40"/>
+          <rect x="142" y="0" width="4" height="40"/>
+          <rect x="150" y="0" width="6" height="40"/>
+          <rect x="160" y="0" width="2" height="40"/>
+          <rect x="170" y="0" width="5" height="40"/>
+          <rect x="180" y="0" width="3" height="40"/>
+          <rect x="190" y="0" width="4" height="40"/>
+          <rect x="200" y="0" width="2" height="40"/>
+          <rect x="210" y="0" width="6" height="40"/>
+          <rect x="220" y="0" width="3" height="40"/>
+          <text x="115" y="55" font-family="'JetBrains Mono', monospace" font-size="10" fill="#000" text-anchor="middle">5 010322 774019</text>
+        </g>
+      </g>
+
+      <text x="150" y="325" font-family="'JetBrains Mono', monospace" font-size="9" fill="#777" text-anchor="middle">
+        DESIGNED &amp; ARTWORKED BY JONNY COKE
+      </text>
+      <text x="150" y="342" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555" text-anchor="middle">
+        IMG_3867.jpg • DRAGONFLY VENTURES
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Product Packaging Carton Box Die-Line -->
+  <g transform="translate(500, 100)" filter="url(#boxShadow)">
+    <rect x="0" y="50" width="600" height="580" rx="16" fill="#141419" stroke="#383844" stroke-width="2"/>
+    
+    <!-- Die-line Fold Indicators -->
+    <rect x="20" y="70" width="560" height="540" fill="none" stroke="#FFE000" stroke-width="1" stroke-dasharray="6,4" opacity="0.6"/>
+
+    <!-- Front Carton Face -->
+    <g transform="translate(40, 90)">
+      <rect x="0" y="0" width="520" height="220" rx="12" fill="#09090c" stroke="#252530"/>
+      <rect x="0" y="0" width="12" height="220" fill="#FFE000"/>
+      
+      <!-- Stanley Brand Banner -->
+      <g transform="translate(30, 24)">
+        <rect x="0" y="0" width="160" height="42" fill="#FFE000" rx="4"/>
+        <text x="80" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="24" fill="#000" text-anchor="middle" letter-spacing="1">STANLEY</text>
+        <text x="180" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18" fill="#fff">HEAVY INDUSTRIAL WORKWEAR</text>
+        <text x="180" y="45" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FFE000">OFFICIAL MERCHANDISE PACKAGING</text>
+      </g>
+
+      <!-- Technical Specifications Table -->
+      <g transform="translate(30, 95)" font-family="'JetBrains Mono', monospace" font-size="11">
+        <text x="0" y="20" fill="#888">FABRIC COMPOSITION:</text>
+        <text x="190" y="20" fill="#fff" font-weight="600">65% Poly / 35% Cotton Twill, 310gsm</text>
+
+        <text x="0" y="42" fill="#888">REINFORCEMENTS:</text>
+        <text x="190" y="42" fill="#fff" font-weight="600">100% Nylon CORDURA® 500D Holster</text>
+
+        <text x="0" y="64" fill="#888">SAFETY STANDARD:</text>
+        <text x="190" y="64" fill="#FFE000" font-weight="600">EN ISO 13688:2013 Ergonomics Compliant</text>
+
+        <text x="0" y="86" fill="#888">PRODUCTION RUN:</text>
+        <text x="190" y="86" fill="#fff" font-weight="600">UK/EU Distribution (Q3 2022)</text>
+      </g>
+    </g>
+
+    <!-- Lower Packaging Panels -->
+    <g transform="translate(40, 330)">
+      <rect x="0" y="0" width="250" height="240" rx="8" fill="#0e0e13" stroke="#252530"/>
+      <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" fill="#FFE000">REAR PANEL GRAPHICS</text>
+      <text x="20" y="54" font-family="'JetBrains Mono', monospace" font-size="10" fill="#aaa">Sizing &amp; Care Instruction Icons</text>
+      
+      <!-- Care Symbols -->
+      <g transform="translate(20, 80)" fill="#777" font-family="'JetBrains Mono', monospace" font-size="18">
+        <text x="0" y="20">40°</text>
+        <text x="45" y="20">△</text>
+        <text x="85" y="20">⨂</text>
+        <text x="125" y="20">☲</text>
+        <text x="165" y="20">🕂</text>
+      </g>
+      <text x="20" y="150" font-family="'JetBrains Mono', monospace" font-size="10" fill="#888">
+        40° Machine Wash • Do Not Bleach
+      </text>
+      <text x="20" y="170" font-family="'JetBrains Mono', monospace" font-size="10" fill="#888">
+        Do Not Tumble Dry • Cool Iron
+      </text>
+      <text x="20" y="210" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FFE000">
+        ISO Compliant Care Artworking
+      </text>
+    </g>
+
+    <g transform="translate(310, 330)">
+      <rect x="0" y="0" width="250" height="240" rx="8" fill="#0e0e13" stroke="#252530"/>
+      <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" fill="#FFE000">COMMERCIAL CREDITS</text>
+      <text x="20" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#fff">Client: Dragonfly Ventures</text>
+      <text x="20" y="80" font-family="'JetBrains Mono', monospace" font-size="11" fill="#aaa">Brand: Stanley Workwear</text>
+      <text x="20" y="100" font-family="'JetBrains Mono', monospace" font-size="11" fill="#aaa">Designer: Jonny Coke</text>
+      
+      <rect x="20" y="130" width="210" height="40" rx="6" fill="#1b1a13" stroke="#FFE000" stroke-width="1"/>
+      <text x="125" y="155" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FFE000" text-anchor="middle" font-weight="700">
+        PACKAGING SPEC COMPLETE
+      </text>
+
+      <text x="20" y="205" font-family="'JetBrains Mono', monospace" font-size="9" fill="#666">
+        Asset: Dragonfly Ventures - IMG_3867.jpg
+      </text>
+    </g>
+  </g>
+</svg>

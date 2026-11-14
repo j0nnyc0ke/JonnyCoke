@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="motionGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#3b2d12"/>
+      <stop offset="60%" stop-color="#141419"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </radialGradient>
+    <linearGradient id="neonGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEB81C"/>
+      <stop offset="50%" stop-color="#FFDD00"/>
+      <stop offset="100%" stop-color="#E09F00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep 3D Viewport Background -->
+  <rect width="1200" height="800" fill="url(#motionGlow)"/>
+
+  <!-- 3D Perspective Grid -->
+  <g stroke="#FEB81C" stroke-width="0.8" opacity="0.25">
+    <!-- Horizon Line -->
+    <line x1="0" y1="360" x2="1200" y2="360" stroke-width="1.5" stroke="#FEB81C" opacity="0.5"/>
+    <!-- Vanishing perspective lines -->
+    <line x1="600" y1="360" x2="0" y2="800"/>
+    <line x1="600" y1="360" x2="150" y2="800"/>
+    <line x1="600" y1="360" x2="300" y2="800"/>
+    <line x1="600" y1="360" x2="450" y2="800"/>
+    <line x1="600" y1="360" x2="600" y2="800"/>
+    <line x1="600" y1="360" x2="750" y2="800"/>
+    <line x1="600" y1="360" x2="900" y2="800"/>
+    <line x1="600" y1="360" x2="1050" y2="800"/>
+    <line x1="600" y1="360" x2="1200" y2="800"/>
+    <!-- Transverse grid rungs -->
+    <line x1="520" y1="380" x2="680" y2="380"/>
+    <line x1="440" y1="410" x2="760" y2="410"/>
+    <line x1="340" y1="460" x2="860" y2="460"/>
+    <line x1="200" y1="530" x2="1000" y2="530"/>
+    <line x1="50" y1="640" x2="1150" y2="640"/>
+    <line x1="0" y1="780" x2="1200" y2="780"/>
+  </g>
+
+  <!-- 3D HUD / Viewport Camera Overlay -->
+  <g font-family="'JetBrains Mono', monospace" font-size="11" fill="#FEB81C" opacity="0.85">
+    <!-- Top Left Camera Data -->
+    <text x="50" y="55">CAM_01 • 35MM CINEMATIC PRIME • F/1.8 • 4K UHD (3840×2160)</text>
+    <text x="50" y="75" fill="#aaa">OCTANE RENDER ENGINE • RAYTRACED DISPLACEMENT MAP</text>
+
+    <!-- Top Right Timecode -->
+    <rect x="990" y="38" width="160" height="32" rx="4" fill="#000" stroke="#FEB81C" stroke-width="1"/>
+    <circle cx="1010" cy="54" r="5" fill="#f43f5e"/>
+    <text x="1025" y="58" font-weight="700" fill="#fff">REC 00:04:18:12</text>
+
+    <!-- Viewport Reticle Corners -->
+    <path d="M 60,110 L 40,110 L 40,130" stroke="#FEB81C" stroke-width="2" fill="none"/>
+    <path d="M 1140,110 L 1160,110 L 1160,130" stroke="#FEB81C" stroke-width="2" fill="none"/>
+    <path d="M 60,690 L 40,690 L 40,670" stroke="#FEB81C" stroke-width="2" fill="none"/>
+    <path d="M 1140,690 L 1160,690 L 1160,670" stroke="#FEB81C" stroke-width="2" fill="none"/>
+
+    <!-- Center Reticle -->
+    <circle cx="600" cy="360" r="40" stroke="#FEB81C" stroke-width="1" stroke-dasharray="6,4" fill="none" opacity="0.5"/>
+    <line x1="580" y1="360" x2="620" y2="360" stroke="#FEB81C" stroke-width="1.5"/>
+    <line x1="600" y1="340" x2="600" y2="380" stroke="#FEB81C" stroke-width="1.5"/>
+  </g>
+
+  <!-- Central 3D Product & Motion Wireframe Assembly -->
+  <g transform="translate(600, 360)">
+    <!-- Isometric Cube / Power Tool Workwear Shield Geometry -->
+    <polygon points="0,-160 180,-60 0,40 -180,-60" fill="#1f1a10" stroke="#FEB81C" stroke-width="3"/>
+    <polygon points="-180,-60 0,40 0,220 -180,120" fill="#111116" stroke="#E09F00" stroke-width="3"/>
+    <polygon points="180,-60 0,40 0,220 180,120" fill="#181820" stroke="#FFE000" stroke-width="3"/>
+
+    <!-- Central Glowing Core -->
+    <circle cx="0" cy="40" r="30" fill="url(#neonGold)" opacity="0.8"/>
+    <circle cx="0" cy="40" r="50" stroke="#FEB81C" stroke-width="1.5" stroke-dasharray="4,4" fill="none"/>
+
+    <!-- Dynamic Motion Vectors -->
+    <path d="M -260,-120 Q -100,-220 120,-180 T 280,-40" stroke="#FFDD00" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M -300,80 Q -180,240 60,220 T 320,100" stroke="#FEB81C" stroke-width="2" stroke-dasharray="8,4" fill="none" opacity="0.6"/>
+
+    <!-- Brand Typography in 3D Space -->
+    <text x="0" y="-80" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="36" fill="#FEB81C" text-anchor="middle" letter-spacing="4">
+      DEWALT × STANLEY
+    </text>
+    <text x="0" y="-55" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="12" fill="#fff" text-anchor="middle" letter-spacing="3">
+      3D MOTION LAUNCH STILLS
+    </text>
+
+    <!-- Floating Callout Nodes -->
+    <g transform="translate(-320, -70)">
+      <circle cx="0" cy="0" r="6" fill="#FEB81C"/>
+      <line x1="0" y1="0" x2="-60" y2="-40" stroke="#FEB81C" stroke-width="1.5"/>
+      <rect x="-240" y="-70" width="180" height="46" rx="6" fill="#000" stroke="#FEB81C" stroke-width="1"/>
+      <text x="-230" y="-50" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#fff">CORDURA Fabric Mesh</text>
+      <text x="-230" y="-35" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FEB81C">Physical Subsurface Scatter</text>
+    </g>
+
+    <g transform="translate(320, 30)">
+      <circle cx="0" cy="0" r="6" fill="#FFDD00"/>
+      <line x1="0" y1="0" x2="60" y2="40" stroke="#FFDD00" stroke-width="1.5"/>
+      <rect x="60" y="20" width="190" height="46" rx="6" fill="#000" stroke="#FFDD00" stroke-width="1"/>
+      <text x="70" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#fff">FatMax Ergonomic Spine</text>
+      <text x="70" y="55" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FFDD00">Dynamic IK Joint Rigging</text>
+    </g>
+  </g>
+
+  <!-- Lower Title / Metadata Footer -->
+  <g transform="translate(50, 710)" font-family="'JetBrains Mono', monospace" font-size="11">
+    <rect x="0" y="0" width="1100" height="55" rx="10" fill="#0a0a0f" stroke="#252535" stroke-width="1.5"/>
+    <text x="24" y="32" fill="#fff" font-weight="700">PROJECT: DRAGONFLY VENTURES • DEWALT/STANLEY LICENSED CAMPAIGN</text>
+    <text x="720" y="32" fill="#FEB81C">ASSET REF: Dragonfly Ventures - IMG_20.png</text>
+    <text x="24" y="46" fill="#888" font-size="9">ART DIRECTION &amp; 3D COLLABORATION: JONNY COKE • SENIOR GRAPHIC &amp; DIGITAL DESIGNER</text>
+  </g>
+</svg>

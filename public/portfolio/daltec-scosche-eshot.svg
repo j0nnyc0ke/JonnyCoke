@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="emailBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a101f"/>
+      <stop offset="100%" stop-color="#03060c"/>
+    </linearGradient>
+    <linearGradient id="scoscheGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <filter id="emailShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#emailBg)"/>
+
+  <!-- Pre-press registration line -->
+  <g opacity="0.4" font-family="'JetBrains Mono', monospace" font-size="10" fill="#888">
+    <circle cx="50" cy="40" r="14" fill="none" stroke="#fff" stroke-width="1"/>
+    <line x1="30" y1="40" x2="70" y2="40" stroke="#fff" stroke-width="1"/>
+    <line x1="50" y1="20" x2="50" y2="60" stroke="#fff" stroke-width="1"/>
+    <text x="80" y="44">DALTEC LTD • SCOSCHE ESHOT EMAIL CAMPAIGN • SENT 26-04-2022</text>
+    <text x="960" y="44" fill="#f97316">FILE: Daltec - SCOSCHE Eshot-260422 copy.jpg</text>
+  </g>
+
+  <!-- Centered Email Client Browser Mockup (640px wide email standard) -->
+  <g transform="translate(280, 70)" filter="url(#emailShadow)">
+    <!-- Email Client Frame -->
+    <rect x="0" y="0" width="640" height="660" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    
+    <!-- Client Top Window Bar -->
+    <rect x="0" y="0" width="640" height="40" rx="16" fill="#0f172a"/>
+    <circle cx="20" cy="20" r="5" fill="#ef4444"/>
+    <circle cx="36" cy="20" r="5" fill="#eab308"/>
+    <circle cx="52" cy="20" r="5" fill="#22c55e"/>
+    <rect x="80" y="10" width="480" height="20" rx="4" fill="#1e293b"/>
+    <text x="320" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8" text-anchor="middle">
+      From: Daltec Trade &lt;orders@daltec.co.uk&gt; • Subject: SCOSCHE New Range Allocation (26 Apr)
+    </text>
+
+    <!-- Email Content Canvas (600px width inside 640px) -->
+    <g transform="translate(20, 50)">
+      <!-- Email Header Banner: Daltec × Scosche -->
+      <rect x="0" y="0" width="600" height="110" rx="8" fill="#0b1b3d"/>
+      <rect x="0" y="0" width="600" height="5" fill="url(#scoscheGrad)"/>
+
+      <text x="25" y="48" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="1">
+        DALTEC
+      </text>
+      <text x="145" y="46" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="24" fill="#f97316" letter-spacing="1">
+        × SCOSCHE®
+      </text>
+
+      <text x="25" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" fill="#ffffff">
+        PREMIUM IN-VEHICLE MOUNT &amp; POWER SYSTEMS
+      </text>
+      <text x="25" y="96" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38bdf8">
+        EXCLUSIVE AUTHORISED UK TRADE ALLOCATION • DISPATCHING NOW
+      </text>
+
+      <!-- Email Product 1: MagicMount Pro 2 -->
+      <g transform="translate(0, 125)">
+        <rect x="0" y="0" width="600" height="135" rx="8" fill="#ffffff"/>
+        <!-- Product Icon / Badge -->
+        <rect x="15" y="15" width="105" height="105" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+        <text x="67" y="60" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#f97316" text-anchor="middle">MAGIC</text>
+        <text x="67" y="80" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">MOUNT</text>
+
+        <text x="135" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="15" fill="#0f172a">
+          SCOSCHE MagicMount™ Pro 2 Dash / Vent Mount
+        </text>
+        <text x="135" y="58" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b">
+          SKU: MP2OD-SP • Strongest Neodymium Rare-Earth Magnets
+        </text>
+        <text x="135" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#334155">
+          360° Adjustable head, 100% device-safe magnetic hold for MagSafe &amp; Qi devices.
+        </text>
+
+        <!-- Price Callout & CTA -->
+        <g transform="translate(135, 92)">
+          <rect x="0" y="0" width="110" height="28" rx="4" fill="#eff6ff" stroke="#bfdbfe"/>
+          <text x="10" y="18" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="12" fill="#1d4ed8">
+            TRADE: £14.95
+          </text>
+          <text x="125" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">
+            RRP £24.99 (40% Margin)
+          </text>
+        </g>
+        <rect x="470" y="92" width="115" height="28" rx="4" fill="#f97316"/>
+        <text x="527" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#fff" text-anchor="middle">
+          Order 10+ Units
+        </text>
+      </g>
+
+      <!-- Email Product 2: PowerVolt 32W Fast Charger -->
+      <g transform="translate(0, 275)">
+        <rect x="0" y="0" width="600" height="135" rx="8" fill="#ffffff"/>
+        <rect x="15" y="15" width="105" height="105" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+        <text x="67" y="60" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#0284c7" text-anchor="middle">POWER</text>
+        <text x="67" y="80" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">VOLT</text>
+
+        <text x="135" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="15" fill="#0f172a">
+          SCOSCHE PowerVolt™ 32W USB-C PD Vehicle Charger
+        </text>
+        <text x="135" y="58" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b">
+          SKU: CPDCC32-SP • Dual Port (20W USB-C PD + 12W USB-A)
+        </text>
+        <text x="135" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#334155">
+          Fast-charges iPhone 0-50% in 30 mins. Certified Smart Detect power management.
+        </text>
+
+        <g transform="translate(135, 92)">
+          <rect x="0" y="0" width="110" height="28" rx="4" fill="#eff6ff" stroke="#bfdbfe"/>
+          <text x="10" y="18" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="12" fill="#1d4ed8">
+            TRADE: £11.50
+          </text>
+          <text x="125" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">
+            RRP £19.99 (42% Margin)
+          </text>
+        </g>
+        <rect x="470" y="92" width="115" height="28" rx="4" fill="#0284c7"/>
+        <text x="527" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#fff" text-anchor="middle">
+          Order 10+ Units
+        </text>
+      </g>
+
+      <!-- Email Footer Banner: Daltec Trade Ordering -->
+      <g transform="translate(0, 425)">
+        <rect x="0" y="0" width="600" height="160" rx="8" fill="#0b1329" stroke="#1e293b"/>
+        <text x="300" y="35" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="15" fill="#ffffff" text-anchor="middle">
+          CALL YOUR DALTEC ACCOUNT MANAGER FOR PALLET PRICING
+        </text>
+        <text x="300" y="58" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f97316" text-anchor="middle">
+          01923 237 200 • WWW.DALTEC.CO.UK • SALES@DALTEC.CO.UK
+        </text>
+
+        <line x1="30" y1="75" x2="570" y2="75" stroke="#1e293b" stroke-width="1"/>
+
+        <text x="300" y="100" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8" text-anchor="middle">
+          HTML Email Design &amp; Digital Production by Jonny Coke • 26 April 2022
+        </text>
+        <text x="300" y="120" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748b" text-anchor="middle">
+          Daltec Ltd, Unit 8, Watford Trade Park, Watford, Hertfordshire WD18 8TR
+        </text>
+        <text x="300" y="140" font-family="'JetBrains Mono', monospace" font-size="9" fill="#f97316" text-anchor="middle">
+          Asset: Daltec - SCOSCHE Eshot-260422 copy.jpg
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

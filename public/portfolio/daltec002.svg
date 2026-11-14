@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="daltecBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070e1b"/>
+      <stop offset="100%" stop-color="#03060c"/>
+    </linearGradient>
+    <linearGradient id="daltecBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <filter id="daltecShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#daltecBg)"/>
+
+  <!-- Circuit Trace Motifs for Vehicle Electronics -->
+  <g stroke="#0284c7" stroke-width="1.2" opacity="0.2" fill="none">
+    <path d="M 0,200 L 250,200 L 320,270 L 600,270"/>
+    <circle cx="250" cy="200" r="4" fill="#0284c7"/>
+    <circle cx="600" cy="270" r="4" fill="#0284c7"/>
+    <path d="M 1200,600 L 950,600 L 880,530 L 600,530"/>
+    <circle cx="950" cy="600" r="4" fill="#0284c7"/>
+    <circle cx="600" cy="530" r="4" fill="#0284c7"/>
+    <path d="M 200,800 L 200,650 L 300,550 L 500,550"/>
+  </g>
+
+  <!-- Pre-press registration line -->
+  <g opacity="0.4" font-family="'JetBrains Mono', monospace" font-size="10" fill="#888">
+    <circle cx="50" cy="40" r="14" fill="none" stroke="#fff" stroke-width="1"/>
+    <line x1="30" y1="40" x2="70" y2="40" stroke="#fff" stroke-width="1"/>
+    <line x1="50" y1="20" x2="50" y2="60" stroke="#fff" stroke-width="1"/>
+    <text x="80" y="44">DALTEC LTD • COMMERCIAL PACKAGING SPECIFICATION • CMYK + SPOT GLOSS</text>
+    <text x="960" y="44" fill="#38bdf8">REF: Daltec002.jpg • WATFORD, UK</text>
+  </g>
+
+  <!-- Central Packaging Box 3D Isometric / Orthographic View -->
+  <g transform="translate(180, 90)" filter="url(#daltecShadow)">
+    <!-- Box Outer Container -->
+    <rect x="0" y="0" width="840" height="580" rx="16" fill="#0b172a" stroke="#1e293b" stroke-width="2"/>
+    <rect x="12" y="12" width="816" height="556" rx="12" fill="#060d18"/>
+
+    <!-- Packaging Header Brand Bar -->
+    <g transform="translate(30, 30)">
+      <rect x="0" y="0" width="756" height="90" rx="8" fill="#0a192f" stroke="#0284c7" stroke-width="1.5"/>
+      <rect x="0" y="0" width="8" height="90" fill="url(#daltecBlue)"/>
+
+      <!-- Daltec Brand Mark -->
+      <text x="35" y="55" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#fff" letter-spacing="2">
+        DALTEC
+      </text>
+      <text x="215" y="42" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11" fill="#38bdf8">
+        VEHICLE ELECTRONICS &amp; FLEET SAFETY
+      </text>
+      <text x="215" y="62" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">
+        COMMERCIAL HARDWARE DIVISION • UK &amp; EUROPEAN DISTRIBUTION
+      </text>
+
+      <rect x="630" y="24" width="100" height="42" rx="6" fill="#0284c7" opacity="0.2" stroke="#38bdf8" stroke-width="1"/>
+      <text x="680" y="50" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="11" fill="#38bdf8" text-anchor="middle">
+        PRO SERIES
+      </text>
+    </g>
+
+    <!-- Packaging Main Showcase Face -->
+    <g transform="translate(30, 140)">
+      <!-- Left Column: Product Schematic Render -->
+      <rect x="0" y="0" width="360" height="400" rx="8" fill="#091322" stroke="#1e293b" stroke-width="1.5"/>
+      
+      <!-- Vector In-Vehicle Camera / DVR Unit Schematic -->
+      <g transform="translate(180, 170)">
+        <!-- Camera Housing -->
+        <rect x="-90" y="-70" width="180" height="140" rx="20" fill="#111c30" stroke="#38bdf8" stroke-width="2"/>
+        <!-- Lens Rings -->
+        <circle cx="0" cy="0" r="48" fill="#080e1a" stroke="#0284c7" stroke-width="3"/>
+        <circle cx="0" cy="0" r="32" fill="#030712" stroke="#38bdf8" stroke-width="2"/>
+        <circle cx="0" cy="0" r="16" fill="#0284c7" opacity="0.6"/>
+        <!-- Reflection Arc -->
+        <path d="M -22,-22 A 32 32 0 0 1 22,-22" stroke="#fff" stroke-width="2" fill="none" opacity="0.4"/>
+        <!-- Status LED -->
+        <circle cx="65" cy="-45" r="4" fill="#10b981"/>
+        <!-- Mounting Bracket -->
+        <path d="M -50,-70 L -50,-100 L 50,-100 L 50,-70" stroke="#64748b" stroke-width="4" fill="none"/>
+        <circle cx="0" cy="-100" r="6" fill="#94a3b8"/>
+      </g>
+
+      <text x="180" y="290" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">
+        HD FLEET VISION PRO 1080P
+      </text>
+      <text x="180" y="312" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38bdf8" text-anchor="middle">
+        WIDE-ANGLE FORWARD RECORDING CAMERA
+      </text>
+
+      <g transform="translate(30, 335)" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">
+        <text x="0" y="15">✓ SONY STARVIS™ SENSOR</text>
+        <text x="160" y="15">✓ IP69K WATERPROOF</text>
+        <text x="0" y="35">✓ 9V-32V FLEET POWER</text>
+        <text x="160" y="35">✓ E-MARK CERTIFIED</text>
+      </g>
+
+      <!-- Right Column: Packaging Copy & Technical Grid -->
+      <g transform="translate(380, 0)">
+        <rect x="0" y="0" width="376" height="400" rx="8" fill="#091322" stroke="#1e293b" stroke-width="1.5"/>
+
+        <g transform="translate(24, 25)">
+          <text x="0" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="15" fill="#38bdf8">
+            COMMERCIAL SPECIFICATIONS
+          </text>
+          <text x="0" y="38" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">
+            ENGINEERED FOR HGV, LCV &amp; PASSENGER FLEETS
+          </text>
+
+          <line x1="0" y1="52" x2="328" y2="52" stroke="#1e293b" stroke-width="1"/>
+
+          <!-- Spec List -->
+          <g transform="translate(0, 68)" font-family="'JetBrains Mono', monospace" font-size="11" fill="#cbd5e1">
+            <text x="0" y="16" fill="#64748b">SKU CODE:</text>
+            <text x="140" y="16" fill="#fff" font-weight="700">DAL-CAM-PRO-002</text>
+
+            <text x="0" y="42" fill="#64748b">RESOLUTION:</text>
+            <text x="140" y="42" fill="#fff">1920 × 1080 @ 60 FPS HDR</text>
+
+            <text x="0" y="68" fill="#64748b">ANGLE OF VIEW:</text>
+            <text x="140" y="68" fill="#fff">170° Ultra-Wide Diagonal</text>
+
+            <text x="0" y="94" fill="#64748b">CERTIFICATIONS:</text>
+            <text x="140" y="94" fill="#38bdf8">ECE R10, CE, FCC, RoHS</text>
+
+            <text x="0" y="120" fill="#64748b">CONNECTOR:</text>
+            <text x="140" y="120" fill="#fff">4-Pin Aviation Screw Lock</text>
+
+            <text x="0" y="146" fill="#64748b">OPERATING TEMP:</text>
+            <text x="140" y="146" fill="#fff">-30°C to +85°C Extreme</text>
+          </g>
+
+          <line x1="0" y1="235" x2="328" y2="235" stroke="#1e293b" stroke-width="1"/>
+
+          <!-- Barcode Area -->
+          <g transform="translate(20, 250)">
+            <rect x="0" y="0" width="288" height="60" fill="#fff" rx="4"/>
+            <g transform="translate(20, 8)" fill="#000">
+              <rect x="0" y="0" width="3" height="32"/>
+              <rect x="6" y="0" width="2" height="32"/>
+              <rect x="12" y="0" width="5" height="32"/>
+              <rect x="22" y="0" width="2" height="32"/>
+              <rect x="30" y="0" width="4" height="32"/>
+              <rect x="40" y="0" width="2" height="32"/>
+              <rect x="48" y="0" width="5" height="32"/>
+              <rect x="60" y="0" width="3" height="32"/>
+              <rect x="70" y="0" width="4" height="32"/>
+              <rect x="80" y="0" width="2" height="32"/>
+              <rect x="90" y="0" width="5" height="32"/>
+              <rect x="102" y="0" width="3" height="32"/>
+              <rect x="112" y="0" width="2" height="32"/>
+              <rect x="120" y="0" width="4" height="32"/>
+              <rect x="130" y="0" width="6" height="32"/>
+              <rect x="142" y="0" width="2" height="32"/>
+              <rect x="150" y="0" width="5" height="32"/>
+              <rect x="162" y="0" width="3" height="32"/>
+              <rect x="172" y="0" width="2" height="32"/>
+              <rect x="180" y="0" width="4" height="32"/>
+              <rect x="190" y="0" width="6" height="32"/>
+              <rect x="202" y="0" width="2" height="32"/>
+              <rect x="210" y="0" width="4" height="32"/>
+              <rect x="220" y="0" width="3" height="32"/>
+              <text x="120" y="44" font-family="'JetBrains Mono', monospace" font-size="10" fill="#000" text-anchor="middle">5 060449 200028</text>
+            </g>
+          </g>
+
+          <text x="164" y="335" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748b" text-anchor="middle">
+            DESIGNED &amp; ARTWORKED BY JONNY COKE • DALTEC LTD
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Annotation Bar -->
+  <g transform="translate(180, 700)" font-family="'JetBrains Mono', monospace" font-size="11">
+    <rect x="0" y="0" width="840" height="55" rx="8" fill="#091322" stroke="#1e293b"/>
+    <text x="24" y="32" fill="#fff" font-weight="700">PORTFOLIO PIECE: DALTEC COMMERCIAL PRODUCT PACKAGING</text>
+    <text x="560" y="32" fill="#38bdf8">ORIGINAL FILE: Daltec002.jpg</text>
+    <text x="24" y="46" fill="#64748b" font-size="9">PACKAGING DESIGN • DIE-CUT GRAPHICS • BARCODE ENCODING • WATFORD, UK</text>
+  </g>
+</svg>
